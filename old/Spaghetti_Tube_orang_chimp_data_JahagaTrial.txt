@@ -1,0 +1,1726 @@
+Species	Room 3	Room 4	Dyad	Phase	Day	Session	Trial	Tube Room 3	Nonsocial Room 3	Spaghetti Tube	Nonsocial Room 4	tool_trans	tool_intube	Tool nach passing	Tool nach success	Absolute	Relative	Highpass	Bodychange_cat	Presence	Receiverabsolute	Effort_cat	BeggingGestures	AttgetObeg
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	1	High	Low	Nothing	Low	1	0	 	 	below	above	1	0	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	2	High	Low	High	Low	1	1	yes	no	below	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	3	High	Low	Nothing	High	1	0	yes	yes	above	above	1	1	yes	below	1	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	4	High	High	High	High	1	1	yes	no	above	body	1	0	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	5	High	High	Nothing	Low	1	0	yes	yes	below	body	0	0	yes	below	1	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	6	High	Low	High	High	1	0	yes	no	below	above	1	0	yes	mixed	1	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	7	High	High	Nothing	High	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	1	1	8	High	High	High	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	1	High	Low	Nothing	Low	1	0	 	 	below	body	0	0	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	2	High	Low	High	Low	1	1	yes	no	below	body	0	0	yes	below	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	3	High	High	High	High	0	/	yes	yes	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	4	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	5	High	High	Nothing	High	0	/	yes	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	6	High	Low	High	High	0	/	no	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	7	High	High	High	Low	0	/	no	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	1	1	8	High	High	Nothing	Low	0	/	no	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	1	High	Low	High	Low	1	1	 	 	below	body	0	1	yes	mixed	1	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	2	High	Low	Nothing	High	1	0	yes	yes	below	body	0	0	yes	mixed	1	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	3	High	Low	Nothing	Low	0	/	yes	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	4	High	Low	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	5	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	6	High	High	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	7	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	2	1	8	High	High	High	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	1	High	Low	High	Low	1	0	 	 	below	body	0	0	yes	mixed	0	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	2	High	Low	Nothing	High	0	/	yes	no	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	4	High	Low	High	High	1	0	no	no	below	body	0	0	yes	mixed	0	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	5	High	High	High	High	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	6	High	High	Nothing	Low	0	/	no	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	7	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	2	1	8	High	High	High	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	1	High	Low	High	Low	0	/	 	 	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	2	High	Low	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	4	High	Low	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	5	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	6	High	High	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	7	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	2	1	8	High	High	High	Low	0	/	no	no	/	/	0	0	yes	/	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	1	High	Low	Nothing	High	1	0	 	 	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	2	High	Low	High	High	1	0	yes	no	below	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	3	High	Low	High	Low	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	4	High	High	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	6	High	High	High	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	7	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	3	1	8	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	1	High	Low	Nothing	High	1	0	 	 	above	body	1	0	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	2	High	Low	High	High	1	0	yes	no	below	body	0	0	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	3	High	Low	High	Low	1	1	yes	no	above	body	1	0	yes	mixed	1	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	5	High	Low	Nothing	Low	1	0	no	no	above	body	1	0	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	6	High	High	High	Low	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	7	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	3	1	8	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	1	High	Low	Nothing	High	1	1	 	 	above	above	1	1	yes	above	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	2	High	Low	High	High	1	0	yes	yes	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	3	High	Low	High	Low	1	0	yes	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	4	High	High	Nothing	Low	0	/	yes	no	/	/	0	0	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	5	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	6	High	High	High	Low	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	7	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	3	1	8	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	1	High	Low	High	High	1	1	 	 	above	above	1	1	yes	above	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	2	High	High	Nothing	Low	0	/	yes	yes	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	3	High	Low	Nothing	High	1	0	no	no	below	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	4	High	High	High	Low	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	5	High	Low	High	Low	1	0	no	no	below	above	1	1	yes	below	1	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	6	High	High	Nothing	High	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	7	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	below	1	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	4	2	8	High	High	High	High	0	/	yes	no	/	/	0	0	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	1	High	Low	High	High	0	/	 	 	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	2	High	High	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	3	High	Low	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	4	High	High	High	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	6	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	4	1	8	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	yes	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	1	High	High	Nothing	Low	0	/	 	 	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	2	High	High	High	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	3	High	Low	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	4	High	High	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	5	High	Low	Nothing	High	0	/	no	no	/	/	0	0	yes	above	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	6	High	High	High	High	0	/	no	no	/	/	0	0	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	7	High	Low	High	Low	0	/	no	no	/	/	0	0	yes	above	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	5	2	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	1	High	High	Nothing	Low	0	/	 	 	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	2	High	High	High	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	3	High	Low	High	High	1	0	no	no	below	body	0	0	yes	mixed	0	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	4	High	High	Nothing	High	0	/	yes	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	5	High	Low	Nothing	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	6	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	7	High	Low	High	Low	1	1	no	no	below	above	1	1	yes	mixed	0	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	5	2	8	High	Low	Nothing	Low	1	0	yes	yes	below	above	1	1	yes	mixed	0	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	1	High	High	Nothing	Low	0	/	 	 	/	/	0	0	yes	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	5	1	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	1	High	High	High	Low	0	/	 	 	/	/	0	0	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	5	High	Low	High	High	1	0	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	6	High	Low	Nothing	Low	1	0	yes	no	below	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	7	High	Low	Nothing	High	1	0	yes	no	below	body	0	0	yes	below	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	6	2	8	High	Low	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	6	High	Low	Nothing	Low	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	7	High	Low	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	6	2	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	7	2	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	7	2	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	4	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	6	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	8	2	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	8	2	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	2	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	3	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	4	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	/	1	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	6	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	below	1	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	8	2	8	High	Low	High	High	1	0	no	no	above	above	1	1	yes	below	1	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	2	High	Low	High	Low	1	1	no	no	?	?	0	?	yes	mixed	?	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	6	High	Low	High	High	1	0	no	no	above	body	1	1	yes	mixed	1	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	7	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	9	3	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	9	3	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	1	High	Low	Nothing	Low	1	0	 	 	below	body	0	1	yes	/	0	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	2	High	Low	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	6	High	Low	High	High	1	0	no	no	below	body	0	0	yes	/	0	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	7	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	9	3	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	1	High	Low	High	Low	1	1	 	 	below	body	0	0	yes	below	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	2	High	Low	Nothing	High	1	0	yes	yes	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	3	High	Low	Nothing	Low	1	0	yes	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	4	High	Low	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	10	3	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	1	High	Low	High	Low	1	1	 	 	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	2	High	Low	Nothing	High	1	0	yes	yes	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	3	High	Low	Nothing	Low	1	0	yes	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	4	High	Low	High	High	1	0	yes	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	5	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	10	3	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	11	3	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	11	3	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	12	3	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	12	3	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	1	High	Low	High	High	1	0	 	 	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	5	High	Low	High	Low	1	1	no	no	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	6	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	7	High	Low	Nothing	Low	1	0	no	no	below	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	12	3	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	13	4	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	13	4	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	/	/	?	?
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	14	4	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	14	4	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	7	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	below	1	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	14	4	8	High	Low	High	Low	0	/	yes	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	15	4	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	15	4	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	15	4	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	/	/	?	?
+Orangutan	Padana	Suaq	Padana_Suaq	Test	16	4	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	16	4	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	6	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	17	5	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	2	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	4	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	1	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	6	High	Low	High	High	1	1	no	no	above	above	1	1	yes	mixed	1	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	7	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	17	5	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	17	5	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	1	High	Low	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	4	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	18	5	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	1	High	Low	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	4	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	18	5	8	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Padana	Pini	Padana_Pini	Test	19	5	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	19	5	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	1	High	Low	High	High	1	0	 	 	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	7	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	below	1	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	20	5	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	4	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	20	5	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Suaq	Padana	Suaq_Padana	Test	20	5	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	6	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	21	6	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	7	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	21	6	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	3	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	5	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	1	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	6	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	7	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	0	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	21	6	8	High	Low	Nothing	Low	1	0	yes	yes	above	above	1	1	yes	mixed	0	?	?
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	1	High	High	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	4	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	5	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	22	6	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	22	6	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	3	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	23	6	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	6	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	23	6	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	2	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	3	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	6	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	23	6	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Pini	Padana_Pini	Test	24	6	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	4	High	Low	High	Low	1	1	no	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	6	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	24	6	8	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	2	High	Low	High	Low	1	1	no	no	above	body	1	1	yes	below	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	4	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	6	High	Low	High	High	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	7	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	25	7	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	2	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	6	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	25	7	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	4	High	Low	High	High	1	1	no	no	below	body	0	1	yes	mixed	0	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	5	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	26	7	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	1	High	Low	High	Low	1	1	 	 	above	body	1	1	yes	mixed	0	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	2	High	Low	Nothing	High	1	0	yes	yes	above	above	1	1	yes	mixed	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	3	High	Low	Nothing	Low	1	0	yes	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	4	High	Low	High	High	1	0	yes	no	above	above	1	1	yes	mixed	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	5	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	26	7	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	1	High	Low	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	4	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	26	7	8	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	2	High	Low	High	High	1	1	no	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	3	High	Low	High	Low	1	1	yes	yes	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	27	7	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	1	High	Low	Nothing	High	1	0	 	 	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	2	High	Low	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	3	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	27	7	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	2	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	3	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	6	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	7	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	27	7	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	28	7	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	1	High	Low	High	High	1	0	 	 	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	3	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	below	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	4	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	28	7	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	7	High	Low	High	Low	1	1	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	29	8	8	High	Low	Nothing	Low	1	1	yes	yes	above	above	1	1	yes	above	0	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	3	High	Low	High	High	1	0	no	no	above	above	1	1	yes	above	0	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	4	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	29	8	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	5	High	Low	High	High	1	0	no	no	above	above	1	1	yes	mixed	1	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	6	High	Low	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	30	8	8	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	1	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	5	High	Low	High	High	1	0	no	no	above	above	1	1	yes	below	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	6	High	Low	Nothing	Low	1	0	yes	no	above	above	1	1	yes	mixed	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	7	High	Low	Nothing	High	1	0	yes	no	above	above	1	1	yes	below	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	30	8	8	High	Low	High	Low	1	1	yes	no	above	above	1	1	yes	mixed	1	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	30	8	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	6	High	Low	High	Low	1	1	no	no	below	above	1	1	yes	below	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	7	High	Low	High	High	1	0	yes	yes	below	above	1	1	yes	below	1	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	31	8	8	High	Low	Nothing	High	1	0	yes	no	below	body	0	0	yes	below	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	4	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	5	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	6	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	7	High	Low	High	High	1	1	yes	yes	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	31	8	8	High	Low	Nothing	High	1	0	yes	yes	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	2	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	above	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	3	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	4	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	above	1	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	6	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	32	8	8	High	Low	High	High	1	1	no	no	above	above	1	1	yes	mixed	1	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	6	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	0	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	32	8	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	5	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	6	High	Low	Nothing	High	1	0	no	no	above	body	1	0	yes	below	0	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	32	8	8	High	Low	High	High	1	0	no	no	above	body	1	1	yes	mixed	0	no	yes
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	1	High	Low	Nothing	Low	1	0	 	 	above	above	1	1	yes	below	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	2	High	Low	High	Low	1	1	yes	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	4	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	6	High	Low	High	High	1	0	no	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	7	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	33	9	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	1	High	Low	Nothing	Low	1	0	 	 	below	body	0	0	yes	below	1	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	2	High	Low	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	33	9	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	4	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	34	9	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	4	High	Low	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	34	9	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	1	High	Low	Nothing	High	1	0	 	 	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	2	High	Low	High	High	1	0	yes	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	3	High	Low	High	Low	1	1	yes	no	above	above	1	1	yes	mixed	0	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	above	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	5	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	6	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	35	9	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	1	High	Low	Nothing	High	1	0	 	 	above	body	1	1	yes	mixed	0	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	2	High	Low	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	35	9	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	1	High	Low	Nothing	High	1	0	 	 	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	2	High	Low	High	High	1	0	yes	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	3	High	Low	High	Low	1	1	yes	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	5	High	Low	Nothing	Low	1	1	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	6	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	35	9	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	1	High	Low	High	High	1	0	 	 	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	3	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	4	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	5	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	1	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	6	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	7	High	Low	Nothing	Low	1	0	no	no	above	body	1	1	yes	mixed	1	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	36	9	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	1	High	Low	High	High	1	0	 	 	above	above	1	1	yes	below	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	3	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	4	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	5	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	1	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	6	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	7	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	36	9	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	1	High	Low	High	High	1	0	 	 	above	body	1	1	yes	mixed	1	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	36	9	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	7	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	37	10	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	7	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	above	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	37	10	8	High	Low	Nothing	Low	1	0	yes	yes	above	above	1	1	yes	above	0	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	7	High	Low	High	Low	1	1	no	no	above	body	1	0	yes	above	?	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	37	10	8	High	Low	Nothing	Low	1	0	yes	yes	above	body	1	?	no	/	?	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	5	High	Low	High	High	1	0	no	no	above	above	1	1	yes	below	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	6	High	Low	Nothing	Low	1	0	yes	no	above	above	1	1	yes	below	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	7	High	Low	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	38	10	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	5	High	Low	High	High	1	0	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	6	High	Low	Nothing	Low	1	0	yes	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	7	High	Low	Nothing	High	1	0	yes	no	below	body	0	1	yes	mixed	0	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	38	10	8	High	Low	High	Low	1	1	yes	no	below	body	0	1	yes	below	0	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	38	10	8	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	mixed	0	yes	no
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	4	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	5	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	6	High	Low	High	Low	1	1	no	no	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	7	High	Low	High	High	1	0	yes	yes	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	39	10	8	High	Low	Nothing	High	1	0	yes	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	6	High	Low	High	Low	1	1	no	no	below	body	0	1	yes	mixed	1	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	7	High	Low	High	High	1	0	yes	yes	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	39	10	8	High	Low	Nothing	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	above	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	2	High	Low	Nothing	Low	1	0	no	no	above	body	1	1	yes	above	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	3	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	4	High	Low	High	Low	1	1	no	no	above	body	1	1	yes	above	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	no	/	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	6	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	40	10	8	High	Low	High	High	1	0	no	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	5	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	40	10	8	High	Low	High	High	1	1	no	no	above	above	1	1	yes	above	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	1	High	Low	Nothing	Low	1	0	 	 	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	2	High	Low	High	Low	1	1	yes	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	4	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	6	High	Low	High	High	1	0	no	no	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	7	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	41	11	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	41	11	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	2	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	below	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	4	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	mixed	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	6	High	Low	High	High	1	0	no	no	above	above	1	1	yes	mixed	1	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	7	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	41	11	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	1	High	Low	High	Low	1	1	 	 	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	2	High	Low	Nothing	High	1	0	yes	yes	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	3	High	Low	Nothing	Low	1	0	yes	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	4	High	Low	High	High	1	0	yes	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	5	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	42	11	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	4	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	42	11	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	1	High	Low	Nothing	High	1	0	 	 	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	2	High	Low	High	High	1	0	yes	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	3	High	Low	High	Low	1	1	yes	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	5	High	Low	Nothing	Low	1	1	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	6	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	43	11	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	43	11	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	5	High	Low	High	Low	1	1	no	no	above	body	1	1	yes	mixed	0	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	6	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	above	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	44	11	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	1	High	Low	High	High	1	0	 	 	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	3	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	above	0	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	4	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	5	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	1	?	?
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	6	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	7	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	above	1	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	44	11	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	44	11	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Dokana	Tanah	Dokana_Tanah	Test	45	12	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	3	High	Low	High	High	1	0	no	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	4	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	5	High	Low	Nothing	High	1	0	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	6	High	High	High	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	7	High	Low	High	Low	1	0	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Suaq	Padana_Suaq	Test	45	12	8	High	Low	Nothing	Low	1	0	yes	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Pini	Padana	Pini_Padana	Test	46	12	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Padana	Dokana_Padana	Test	46	12	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	46	12	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	46	12	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	46	12	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	46	12	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Suaq	Padana	Suaq_Padana	Test	46	12	5	High	Low	High	High	1	0	no	no	above	body	1	0	yes	mixed	?	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	46	12	6	High	Low	Nothing	Low	1	0	yes	no	above	body	1	0	yes	mixed	?	no	yes
+Orangutan	Suaq	Padana	Suaq_Padana	Test	46	12	8	High	Low	High	Low	0	/	yes	no	/	/	0	0	yes	mixed	/	no	yes
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	4	High	Low	Nothing	Low	1	0	no	no	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	5	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	6	High	Low	High	Low	1	1	no	no	below	body	0	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	7	High	Low	High	High	1	0	yes	yes	above	body	1	1	yes	mixed	0	no	no
+Orangutan	Padana	Pini	Padana_Pini	Test	47	12	8	High	Low	Nothing	High	1	0	yes	no	above	body	1	1	yes	mixed	1	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Dokana	Pini	Dokana_Pini	Test	47	12	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	2	High	Low	Nothing	Low	1	0	no	no	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	3	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	4	High	Low	High	Low	1	1	no	no	above	body	1	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	6	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Padana	Dokana	Padana_Dokana	Test	48	12	8	High	Low	High	High	1	0	no	no	below	body	0	1	yes	mixed	0	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	4	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	mixed	1	no	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	6	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	below	1	no	yes
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	?	?
+Orangutan	Pini	Dokana	Pini_Dokana	Test	48	12	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	?	?
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Orangutan	Tanah	Dokana	Tanah_Dokana	Test	48	12	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	yes	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	1	High	Low	Nothing	Low	1	0	 	 	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	2	High	Low	High	Low	1	1	yes	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	4	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	6	High	Low	High	High	1	0	no	no	below	body	0	1	yes	below	0	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	7	High	High	High	Low	1	1	yes	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	1	1	8	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	3	High	Low	High	High	1	1	no	no	below	body	0	0	no	below	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	4	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	5	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	6	High	High	High	High	0	/	yes	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	7	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	1	1	8	High	Low	Nothing	Low	1	0	yes	yes	below	body	0	0	no	/	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	4	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	5	High	Low	High	High	1	1	no	no	below	body	0	0	no	/	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	6	High	Low	Nothing	Low	1	1	yes	yes	below	body	0	0	no	/	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	7	High	Low	Nothing	High	1	0	yes	yes	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	2	2	8	High	Low	High	Low	1	1	yes	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	1	High	Low	High	Low	1	1	 	 	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	2	High	Low	Nothing	High	1	0	yes	yes	above	above	1	1	yes	below	1	?	?
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	3	High	Low	Nothing	Low	1	0	yes	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	4	High	Low	High	High	1	0	yes	no	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	5	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	2	2	8	High	High	High	Low	0	/	no	no	/	/	0	1	no	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	1	High	Low	Nothing	High	1	0	 	 	above	above	1	1	no	below	1	?	?
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	2	High	Low	High	High	1	0	yes	no	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	3	High	Low	High	Low	1	1	yes	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	5	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	6	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	3	3	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	2	High	High	High	High	0	/	no	no	/	/	0	0	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	6	High	Low	High	Low	1	1	no	no	below	above	1	1	no	/	1	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	7	High	Low	High	High	1	1	yes	yes	below	body	0	0	yes	mixed	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	3	3	8	High	Low	Nothing	High	1	0	yes	yes	below	body	0	0	yes	mixed	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	4	High	Low	High	Low	1	1	no	no	below	body	0	1	yes	mixed	0	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	6	High	Low	Nothing	High	1	0	no	no	below	body	0	0	no	/	0	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	4	4	8	High	Low	High	High	1	1	no	no	below	body	0	0	yes	below	0	?	?
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	1	High	Low	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	4	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	4	4	8	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	5	5	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	2	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	4	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	mixed	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	5	5	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	1	High	Low	High	Low	1	1	 	 	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	2	High	Low	Nothing	High	1	0	yes	yes	below	body	0	1	yes	mixed	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	3	High	Low	Nothing	Low	1	0	yes	no	below	body	0	1	yes	mixed	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	4	High	Low	High	High	1	1	yes	no	below	body	0	1	yes	mixed	0	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	5	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	6	6	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	6	6	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	6	6	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	6	6	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	6	6	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	6	6	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	6	6	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	6	6	8	High	Low	High	Low	1	1	no	no	below	body	0	0	no	below	0	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	2	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	3	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	4	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	no	/	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	5	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	6	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	7	High	Low	High	High	1	1	yes	yes	below	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	7	7	8	High	Low	Nothing	High	1	0	yes	yes	below	above	1	1	yes	below	1	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	1	High	Low	Nothing	High	1	0	 	 	below	body	0	1	no	/	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	2	High	Low	High	High	1	1	yes	no	below	body	0	1	yes	below	0	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	3	High	Low	High	Low	1	1	yes	yes	below	body	0	1	yes	mixed	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	5	High	Low	Nothing	Low	1	0	no	no	below	body	0	1	no	/	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	6	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	7	7	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	1	High	Low	High	High	1	0	 	 	below	body	0	1	yes	below	1	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	2	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	3	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	4	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	5	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	6	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	7	High	Low	Nothing	Low	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	8	8	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	4	High	Low	High	Low	1	1	no	no	below	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	5	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	6	High	Low	Nothing	High	1	0	no	no	below	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	7	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	8	8	8	High	Low	High	High	1	1	no	no	below	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	1	High	Low	Nothing	Low	1	0	 	 	below	body	0	0	no	/	0	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	2	High	Low	High	Low	1	1	yes	no	below	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	3	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	4	High	Low	Nothing	High	1	0	no	no	below	body	0	1	no	/	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	no	/	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	6	High	Low	High	High	1	1	no	no	below	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	7	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	9	9	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	3	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	4	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	9	9	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	5	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	6	High	Low	Nothing	Low	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	10	10	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	1	High	Low	High	Low	1	1	 	 	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	2	High	Low	Nothing	High	1	0	yes	yes	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	3	High	Low	Nothing	Low	1	0	yes	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	4	High	Low	High	High	1	1	yes	no	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	5	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	10	10	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	1	High	Low	Nothing	High	1	0	 	 	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	2	High	Low	High	High	1	1	yes	no	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	3	High	Low	High	Low	1	1	yes	yes	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	4	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	11	11	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	6	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	7	High	Low	High	High	1	0	yes	yes	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	11	11	8	High	Low	Nothing	High	1	0	yes	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	5	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Alex	Jahaga	Alex_Jahaga	Test	12	12	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	1	High	Low	High	High	1	1	 	 	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	2	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	3	High	Low	Nothing	High	1	0	no	no	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	4	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	5	High	Low	High	Low	1	1	no	no	above	above	1	1	yes	below	1	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	6	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	7	High	Low	Nothing	Low	1	0	no	no	above	above	1	1	yes	below	1	no	no
+Chimpanzee	Jahaga	Alex	Jahaga_Alex	Test	12	12	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	1	High	Low	Nothing	High	1	0	 	 	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	2	High	Low	High	Low	1	1	yes	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	3	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	5	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	6	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	1	1	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	4	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	1	1	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	1	High	Low	Nothing	Low	1	0	 	 	below	body	0	1	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	2	High	Low	Nothing	High	1	0	yes	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	3	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	1	1	8	High	High	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	2	1	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	1	High	Low	High	High	1	0	 	 	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	2	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	4	High	Low	Nothing	Low	1	0	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	5	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	6	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	7	High	Low	High	Low	1	1	yes	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	2	1	8	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	6	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	2	1	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	3	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	4	High	Low	Nothing	High	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	5	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	3	2	8	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	4	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	5	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	3	2	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	3	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	4	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	6	High	Low	High	Low	1	1	no	no	below	body	0	1	yes	below	1	yes	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	7	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	3	2	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	3	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	5	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	4	2	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	5	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	6	High	Low	Nothing	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	7	High	Low	High	High	1	1	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	4	3	8	High	Low	Nothing	Low	1	0	yes	yes	below	body	0	0	no	below	0	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	4	2	8	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	7	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	5	3	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	5	2	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	3	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	5	3	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	2	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	3	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	6	3	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	3	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	4	High	High	Nothing	High	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	5	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	6	High	Low	Nothing	Low	0	/	yes	yes	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	7	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	6	3	8	High	High	High	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	6	3	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	3	High	Low	Nothing	Low	1	1	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	4	High	Low	High	Low	1	1	yes	yes	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	5	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	7	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	7	4	8	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	7	4	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	7	4	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	1	High	High	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	2	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	3	High	High	High	High	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	8	4	8	High	Low	Nothing	High	1	0	no	no	below	body	0	0	no	below	0	no	yes
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	8	5	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	8	4	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	8	4	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	8	4	3	High	Low	Nothing	Low	1	0	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	8	4	4	High	Low	Nothing	High	1	0	yes	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	8	4	6	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	8	4	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	8	4	8	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	yes	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	7	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	9	4	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	3	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	5	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	6	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	9	5	8	High	Low	High	High	0	0	no	no	below	body	0	0	no	/	1	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	5	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	9	5	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	10	6	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	7	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	10	5	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	10	5	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	1	High	Low	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	5	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	11	6	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	2	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	4	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	5	High	Low	High	Low	1	1	yes	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	6	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	11	5	8	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	4	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	5	High	Low	Nothing	Low	1	1	yes	yes	below	body	0	1	yes	below	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	6	High	Low	Nothing	High	1	0	yes	yes	below	body	0	1	yes	below	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	7	High	Low	High	High	1	0	yes	no	below	body	0	1	yes	below	0	yes	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	11	6	8	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	3	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	4	High	Low	Nothing	High	1	0	yes	no	below	body	0	1	yes	below	0	yes	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	12	6	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	1	High	Low	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	12	6	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	3	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	6	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	7	High	Low	Nothing	High	1	0	yes	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	12	6	8	High	Low	High	Low	1	1	yes	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	3	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	yes	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	4	High	Low	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	13	7	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	1	High	High	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	3	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	7	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	13	7	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	3	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	4	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	5	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	6	High	Low	Nothing	High	1	0	no	no	below	body	0	0	no	/	0	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	7	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	13	7	8	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	yes	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	6	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	7	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	14	7	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	14	8	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	14	7	8	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	1	High	High	High	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	4	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	15	7	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	3	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	4	High	High	High	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	5	High	Low	Nothing	Low	1	1	no	no	below	body	0	0	yes	below	0	?	?
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	6	High	Low	Nothing	High	1	0	yes	yes	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	7	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	15	8	8	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	3	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	4	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	6	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	15	8	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	1	High	Low	High	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	2	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	16	9	8	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	4	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	16	8	8	High	Low	High	Low	1	1	no	no	below	body	0	0	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	1	High	Low	High	Low	1	1	 	 	below	body	0	1	yes	mixed	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	2	High	High	High	Low	0	/	yes	yes	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	3	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	mixed	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	4	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	5	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	yes	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	6	High	Low	Nothing	Low	1	1	yes	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	7	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	16	8	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	1	High	Low	High	Low	1	1	 	 	below	body	0	0	yes	below	0	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	2	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	3	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	4	High	Low	Nothing	High	1	0	yes	no	below	body	0	0	yes	below	0	yes	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	5	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	7	High	Low	Nothing	Low	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	17	9	8	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	3	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	7	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	17	8	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	5	High	Low	High	High	1	0	no	no	below	body	0	0	yes	below	0	yes	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	6	High	High	Nothing	Low	0	/	yes	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	7	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	yes	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	17	9	8	High	Low	Nothing	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	2	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	3	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	18	9	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	3	High	Low	Nothing	High	1	0	no	no	below	body	0	1	yes	below	0	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	4	High	Low	Nothing	Low	1	0	yes	no	below	body	0	1	yes	below	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	5	High	Low	High	Low	1	1	yes	no	below	body	0	1	yes	below	0	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	6	High	High	High	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	7	High	Low	High	High	1	0	no	no	below	body	0	1	yes	below	0	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	18	9	8	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	4	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	7	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	18	9	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	7	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	19	10	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	4	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	19	10	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	3	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	4	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	5	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	6	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	19	10	8	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	2	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	5	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	7	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	?	?
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	20	10	8	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	1	High	Low	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	3	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	5	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	7	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	20	10	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	3	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	5	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	6	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	20	11	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	1	High	Low	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	3	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	6	High	Low	High	High	1	1	no	no	below	body	0	1	yes	below	0	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	7	High	High	Nothing	High	0	/	yes	yes	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	21	10	8	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	2	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	3	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	4	High	High	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	5	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	?	?
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	6	High	High	High	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	21	11	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	2	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	4	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	5	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	6	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	7	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	21	11	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	3	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	4	High	High	High	High	0	/	yes	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	5	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	yes	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	7	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Kofi	Bangolo_Kofi	Test	22	12	8	High	High	Nothing	Low	0	/	yes	yes	/	/	0	0	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	1	High	High	High	Low	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	22	11	8	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	1	High	High	High	High	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	3	High	Low	High	High	1	0	no	no	below	body	0	0	no	/	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	4	High	High	Nothing	High	0	/	yes	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	5	High	Low	High	Low	1	1	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	6	High	High	Nothing	Low	0	/	yes	yes	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	7	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	22	11	8	High	Low	Nothing	High	1	0	no	no	below	body	0	0	yes	below	0	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	1	High	High	High	High	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	2	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	4	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	5	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	6	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Lome	Kofi_Lome	Test	23	12	8	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	1	High	High	High	Low	0	/	 	 	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	2	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	4	High	High	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	5	High	Low	High	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	6	High	Low	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	7	High	High	Nothing	High	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Bangolo	Lome	Bangolo_Lome	Test	23	12	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	1	High	High	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	2	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	3	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	5	High	High	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	6	High	Low	High	High	0	/	no	no	/	/	0	1	yes	mixed	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	7	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	23	11	8	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	1	High	Low	Nothing	Low	0	/	 	 	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	2	High	High	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	5	High	High	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Lome	Bangolo	Lome_Bangolo	Test	24	12	8	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	above	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	2	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	3	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	4	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	5	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	6	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	mixed	/	no	yes
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	7	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Kofi	Bangolo	Kofi_Bangolo	Test	24	12	8	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	1	High	High	Nothing	High	0	/	 	 	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	2	High	High	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	3	High	High	Nothing	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	4	High	Low	Nothing	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	5	High	High	High	Low	0	/	no	no	/	/	0	1	no	/	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	6	High	Low	Nothing	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	7	High	Low	High	High	0	/	no	no	/	/	0	1	yes	below	/	no	no
+Chimpanzee	Lome	Kofi	Lome_Kofi	Test	24	12	8	High	Low	High	Low	0	/	no	no	/	/	0	1	yes	below	/	no	no
