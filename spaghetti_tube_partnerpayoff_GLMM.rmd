@@ -62,10 +62,10 @@ Both the paired-samples t-test and a mixed model show a significant effect for c
 
 plot_individual <- all.data %>%
   filter(NonsocialRoom3=="Low")%>%
-  group_by(NonsocialRoom4,SpaghettiTube, Room3) %>% 
+  group_by(NonsocialRoom4,SpaghettiTube, Room3, Room4) %>% 
   summarize(tool_transfer = mean(tool_trans))  %>% 
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
   add_count(tool_transfer)
-
 
 ggplot(
   data=plot_individual, aes(interaction(NonsocialRoom4,SpaghettiTube), tool_transfer)) +   
@@ -82,10 +82,11 @@ ggplot(
 ```{r error=FALSE, echo=FALSE}
 #Tool recipient: spaghetti tube
 plot_individual2 <- all.data %>%
-  filter(NonsocialRoom3=="Low")%>%
-  group_by(SpaghettiTube, Room3, Room4) %>% 
-  summarize(tool_transfer = mean(tool_trans))  %>% 
+ # filter(NonsocialRoom3=="Low")%>%
   mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(SpaghettiTube, dir_dyad) %>% 
+  summarize(tool_transfer = mean(tool_trans))  %>%
+  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
   add_count(tool_transfer)
 
 median_S.R4<-plot_individual2  %>%
@@ -97,17 +98,18 @@ p2<-ggplot(
   geom_boxplot(aes(group=SpaghettiTube), width=0.5)+
   geom_point(size = plot_individual2$n, colour = "blue") +
   geom_line(lty=2)+
-  #ylim(0,12)+
+  ylim(0,1)+
   labs(x="Tool recipient: social payoff",y="Tool transfer")+
   theme_few()+
-  theme(axis.ticks.x=element_blank())+
-  ggtitle("Tool recipient: Social Payoff")
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
+  #ggtitle("Tool recipient: Social Payoff")
 
 #Payoff tool giver
 plot_individual3 <- all.data %>%
-  group_by(NonsocialRoom3, Room3, Room4) %>% 
-  summarize(tool_transfer = mean(tool_trans))  %>% 
   mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(NonsocialRoom3, dir_dyad) %>% 
+  summarize(tool_transfer = mean(tool_trans))  %>%
+  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
   add_count(tool_transfer)
 
 median_NS.R3 <- plot_individual3  %>%
@@ -119,17 +121,17 @@ p1 <- ggplot(
   geom_boxplot(aes(group=NonsocialRoom3), width=0.5)+
   geom_point(size = plot_individual3$n, colour = "blue") +
   geom_line(lty=2)+
-  #ylim(0,12)+
+  ylim(0,1)+
   labs(x="Tool giver: Non-social payoff",y="Tool transfer")+
   theme_few()+
-  theme(axis.ticks.x=element_blank())+
-  ggtitle("Tool giver: Non-social Payoff")
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+      ggtitle("Tool giver: Non-social Payoff")
 
 #Presence
 plot_individual4 <- all.data %>%
-  group_by(Presence, Room3, Room4) %>% 
-  summarize(tool_transfer = mean(tool_trans))  %>% 
   mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(Presence, dir_dyad) %>% 
+  summarize(tool_transfer = mean(tool_trans))  %>% 
+  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
   add_count(tool_transfer)
 
 median_Presence <- plot_individual4  %>%
@@ -141,17 +143,57 @@ p3 <- ggplot(
   geom_boxplot(aes(group=Presence), width=0.5)+
   geom_point(size = plot_individual4$n, colour = "blue") +
   geom_line(lty=2)+
-  #ylim(0,12)+
+  ylim(0,1)+
   labs(x="Presence of tool recipient",y="Tool transfer")+
   theme_few()+
-  theme(axis.ticks.x=element_blank())+
-  ggtitle("Presence of tool recipient")
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
+ # ggtitle("Presence of tool recipient" )
 
-
+tiff("SpaghettiTube_tool_transfer_predictors.tiff", width= 180, height= 120, units = "mm", res=150)
 grid.arrange(p1, p2,p3, nrow = 1, heights=unit(100, "mm"))
+dev.off()
+
+#ggsave("SpaghettiTube_tooltranser.tiff", width = 18, height = 10, units = "cm")
+
 
 ```
 
+###Plotting effect of gestures on tool transfer
+
+```{r error=FALSE, echo=FALSE}
+
+plot_individual5 <- model.data.chimp %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(Gesture, dir_dyad) %>% 
+  summarize(tool_transfer = mean(tool_trans))  %>% 
+  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
+  add_count(tool_transfer)
+  
+  
+plot_individual5$diff_score=plot_individual5$tool_transfer[plot_individual5$Gesture=="yes"]-plot_individual5$tool_transfer[plot_individual5$Gesture=="no"]
+plot_individual5 <- plot_individual5 %>%
+  add_count(diff_score, name = "n_diff")
+
+
+median_gesture<-plot_individual5  %>%
+  group_by(Gesture) %>% 
+  summarize(tool_transfer2 = median(tool_transfer))  
+
+p4<-ggplot(
+  data=plot_individual5, aes(Gesture, tool_transfer, group=dir_dyad)) +   
+  geom_boxplot(aes(group=Gesture), width=0.5)+
+  geom_line(lty=2)+
+  geom_point(size = plot_individual5$n, colour = "blue") +
+  ylim(0,0.8)+
+  labs(x="Gesture",y="Tool transfer")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
+  #ggtitle("Tool recipient: Social Payoff")
+
+ggsave("SpaghettiTube_tooltransfer.tiff", width = 10, height = 10, units = "cm")
+
+p4
+```
 
 ```{r error=FALSE, echo=FALSE}
 
@@ -198,7 +240,6 @@ ggplot(all.data, aes(x=factor(chimp), y=factor(trial_total), group=pull_action))
          shape = guide_legend(order = 1))+
   coord_flip()
 
-ggsave("multiple possibilities_plot.tiff", width = 18, height = 10, units = "cm")
 
 ```
 
@@ -896,7 +937,7 @@ round(xdrop5.orang,3)
 
 model.data.chimp<-model.data %>%
   filter(Species=="Chimpanzee")
-str(model.data.chimp)
+#str(model.data.chimp)
 
 ## code to run the model
 mm5.chimp <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube + NonsocialRoom4  + Presence+ Gesture+ z.Session+z.Trial+
