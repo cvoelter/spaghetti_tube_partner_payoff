@@ -436,7 +436,7 @@ round(xdrop2,3)
 ``` {r include=FALSE}
 ## save model output
 #saveRDS(mm.2, "multpos_model.rds")
-save.image("mm1_SpaghettiTube_partnerPayoffs.RData")
+save.image("SpaghettiTube_partnerPayoffs_GLMMs_tool transfer.RData")
 ```
 
 ####Confidence intervals
@@ -714,3 +714,237 @@ vif(col.mm3)
 #no problem
 ```
 
+#GLMM 5 with Gesture and Gesture*Species interaction and without the interaction
+
+
+
+
+``` {r mixed modeling, error=TRUE}
+
+
+## code to run the model
+mm5int <- glmer(tool_trans~NonsocialRoom3 + (SpaghettiTube*NonsocialRoom4)  + Presence+ Gesture*Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+               
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+             
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad) 
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+####Full-null model comparison
+```{r}	 
+anova(mm5int, mm.3.null, test="Chisq")
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm5int)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop5int=drop1(mm5int, test="Chisq")
+round(xdrop5int,3)
+```
+
+
+
+
+
+``` {r mixed modeling, error=TRUE}
+
+## code to run the model
+mm5 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube + NonsocialRoom4  + Presence+ Gesture* Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+               
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm5)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop5=drop1(mm5, test="Chisq")
+round(xdrop5,3)
+```
+
+``` {r mixed modeling, error=TRUE}
+
+model.data.orang<-model.data %>%
+  filter(Species=="Orangutan")
+str(model.data.orang)
+
+## code to run the model
+mm5.orang <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube + NonsocialRoom4  + Presence+ Gesture+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+               
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+
+             , data = model.data.orang
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm5.orang)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop5.orang=drop1(mm5.orang, test="Chisq")
+round(xdrop5.orang,3)
+```
+
+
+``` {r mixed modeling, error=TRUE}
+
+model.data.chimp<-model.data %>%
+  filter(Species=="Chimpanzee")
+str(model.data.chimp)
+
+## code to run the model
+mm5.chimp <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube + NonsocialRoom4  + Presence+ Gesture+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+               
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+
+             , data = model.data.chimp
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm5.chimp)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop5.chimp=drop1(mm5.chimp, test="Chisq")
+round(xdrop5.chimp,3)
+```
