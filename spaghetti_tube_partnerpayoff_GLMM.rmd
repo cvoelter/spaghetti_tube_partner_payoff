@@ -30,11 +30,21 @@ load(file ="mm1_SpaghettiTube_partnerPayoffs.RData")
 #readRDS(file ="multpos_model.rds")
 ```
 
-```{r loading data, include = FALSE}
+```{r loading data, include = FALSE, warning = FALSE}
 #Preparing code for mixed modeling. 
 all.data <- read.table(file="data/Spaghetti_Tube_Phase7_data_for_r.txt", header=T, sep="\t")
 str(all.data)
 describeBy(all.data)
+
+
+all.data<-all.data %>%
+  mutate(BeggingGestures = na_if(BeggingGestures, "?")) %>%
+  mutate(AttgetObeg = na_if(AttgetObeg, "?")) %>%
+  mutate(Gesture = ifelse(BeggingGestures=="yes","yes",(ifelse(AttgetObeg=="yes","yes","no"))))
+
+  
+all.data<-droplevels(all.data)
+all.data$Gesture=as.factor(all.data$Gesture)
 view(dfSummary(all.data))
 
 ```
@@ -465,6 +475,242 @@ plot_model(mm2, type='re')
 ```
 
 
+#GLMM with gesture
+
+```{r eval=FALSE, echo=FALSE}
+xx.fe.re=fe.re.tab(fe.model="tool_trans ~ NonsocialRoom3 + SpaghettiTube*NonsocialRoom4+ Species+ Session+Trial+Presence+Gesture ",
+                   re="(1|Room3)+ (1|Room4)+ (1|Dyad)", data=all.data)
+xx.fe.re$summary
+```
 
 
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+
+model.data <- all.data %>% 
+  na.omit(cols=Gesture)%>% 
+  mutate(z.Trial = scale(Trial, scale = T, center = T),
+         z.Session = scale(Session, scale=T, center=T),
+         BeggingGestures = relevel(BeggingGestures, ref = "yes"),
+         AttgetObeg = relevel(AttgetObeg, ref = "yes"),
+         NonsocialRoom3.c = scale(as.numeric(NonsocialRoom3), scale=F,center=T),
+         SpaghettiTube.c = scale(as.numeric(SpaghettiTube), scale=F,center=T),
+         NonsocialRoom4.c = scale(as.numeric(NonsocialRoom4), scale=F,center=T),
+         Gesture.c = as.numeric(Gesture)-mean(as.numeric(Gesture)),
+         Presence.c = scale(as.numeric(Presence), scale=F,center=T))
+
+
+## code to run the model
+mm3 <- glmer(tool_trans~NonsocialRoom3 + (SpaghettiTube*NonsocialRoom4)  + Presence+ Gesture+
+             Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+               
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+             
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad) 
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+####Null model	 
+```{r}	 
+mm.3.null <- glmer(tool_trans~1+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+               
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+             
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad) 
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+
+```
+####Full-null model comparison
+```{r}	 
+anova(mm3, mm.3.null, test="Chisq")
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm3)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop3=drop1(mm3, test="Chisq")
+round(xdrop3,3)
+```
+
+
+#GLMM 4 with Gesture and without the interaction
+
+``` {r mixed modeling, error=TRUE}
+
+
+## code to run the model
+mm4 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube + NonsocialRoom4  + Presence+ Gesture+
+             Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+               
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+####Null model	 
+```{r}	 
+mm.4.null <- glmer(tool_trans~1+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+               
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+
+```
+####Full-null model comparison
+```{r}	 
+anova(mm4, mm.4.null, test="Chisq")
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm4)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop4=drop1(mm4, test="Chisq")
+round(xdrop4,3)
+```
+
+#### check for colinearity in the previous model.
+
+```{R echo=FALSE, error=FALSE, warning=FALSE}
+
+col.mm3 <- glm(tool_trans ~ NonsocialRoom3 + SpaghettiTube+NonsocialRoom4  + Presence+Gesture+
+             Species+ z.Session+z.Trial
+             , data = model.data
+             
+)
+vif(col.mm3)
+#no problem
+```
 
