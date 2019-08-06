@@ -86,7 +86,7 @@ plot_individual2 <- all.data %>%
   mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
   group_by(SpaghettiTube, dir_dyad) %>% 
   summarize(tool_transfer = mean(tool_trans))  %>%
-  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
+  mutate(tool_transfer = round(tool_transfer/0.01)*0.01)%>%
   add_count(tool_transfer)
 
 median_S.R4<-plot_individual2  %>%
@@ -95,10 +95,10 @@ median_S.R4<-plot_individual2  %>%
 
 p2<-ggplot(
   data=plot_individual2, aes(SpaghettiTube, tool_transfer, group=dir_dyad)) +   
-  geom_boxplot(aes(group=SpaghettiTube), width=0.5)+
-  geom_point(size = plot_individual2$n, colour = "blue") +
-  geom_line(lty=2)+
-  ylim(0,1)+
+  geom_boxplot(aes(group=SpaghettiTube), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual2$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  ylim(0,0.8)+
   labs(x="Tool recipient: social payoff",y="Tool transfer")+
   theme_few()+
   theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
@@ -109,7 +109,7 @@ plot_individual3 <- all.data %>%
   mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
   group_by(NonsocialRoom3, dir_dyad) %>% 
   summarize(tool_transfer = mean(tool_trans))  %>%
-  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
+  mutate(tool_transfer = round(tool_transfer/0.01)*0.01)%>%
   add_count(tool_transfer)
 
 median_NS.R3 <- plot_individual3  %>%
@@ -118,10 +118,10 @@ median_NS.R3 <- plot_individual3  %>%
 
 p1 <- ggplot(
   data=plot_individual3, aes(NonsocialRoom3, tool_transfer, group=dir_dyad)) +   
-  geom_boxplot(aes(group=NonsocialRoom3), width=0.5)+
-  geom_point(size = plot_individual3$n, colour = "blue") +
-  geom_line(lty=2)+
-  ylim(0,1)+
+  geom_boxplot(aes(group=NonsocialRoom3), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual3$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4)+
+  ylim(0,0.8)+
   labs(x="Tool giver: Non-social payoff",y="Tool transfer")+
   theme_few()+
   theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+      ggtitle("Tool giver: Non-social Payoff")
@@ -131,7 +131,7 @@ plot_individual4 <- all.data %>%
   mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
   group_by(Presence, dir_dyad) %>% 
   summarize(tool_transfer = mean(tool_trans))  %>% 
-  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
+  mutate(tool_transfer = round(tool_transfer/0.01)*0.01)%>%
   add_count(tool_transfer)
 
 median_Presence <- plot_individual4  %>%
@@ -140,10 +140,10 @@ median_Presence <- plot_individual4  %>%
 
 p3 <- ggplot(
   data=plot_individual4, aes(Presence, tool_transfer, group=dir_dyad)) +   
-  geom_boxplot(aes(group=Presence), width=0.5)+
-  geom_point(size = plot_individual4$n, colour = "blue") +
-  geom_line(lty=2)+
-  ylim(0,1)+
+  geom_boxplot(aes(group=Presence), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual4$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  ylim(0,0.8)+
   labs(x="Presence of tool recipient",y="Tool transfer")+
   theme_few()+
   theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
@@ -166,7 +166,7 @@ plot_individual5 <- model.data.chimp %>%
   mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
   group_by(Gesture, dir_dyad) %>% 
   summarize(tool_transfer = mean(tool_trans))  %>% 
-  mutate(tool_transfer = round(tool_transfer/0.02)*0.02)%>%
+  mutate(tool_transfer = round(tool_transfer/0.01)*0.01)%>%
   add_count(tool_transfer)
   
   
@@ -175,24 +175,61 @@ plot_individual5 <- plot_individual5 %>%
   add_count(diff_score, name = "n_diff")
 
 
-median_gesture<-plot_individual5  %>%
+median_gesture_chimp<-plot_individual5  %>%
   group_by(Gesture) %>% 
   summarize(tool_transfer2 = median(tool_transfer))  
 
 p4<-ggplot(
   data=plot_individual5, aes(Gesture, tool_transfer, group=dir_dyad)) +   
-  geom_boxplot(aes(group=Gesture), width=0.5)+
-  geom_line(lty=2)+
-  geom_point(size = plot_individual5$n, colour = "blue") +
+  geom_boxplot(aes(group=Gesture), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual5$n, colour = "darkgrey", alpha=0.6) +
+  geom_line(lty=2, alpha=0.8, colour="darkgrey")+
   ylim(0,0.8)+
   labs(x="Gesture",y="Tool transfer")+
   theme_few()+
-  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
-  #ggtitle("Tool recipient: Social Payoff")
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  ggtitle("Chimpanzee")
 
 ggsave("SpaghettiTube_tooltransfer.tiff", width = 10, height = 10, units = "cm")
 
 p4
+
+
+plot_individual6 <- model.data.orang %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(Gesture, dir_dyad) %>% 
+  summarize(tool_transfer = mean(tool_trans))  %>% 
+  mutate(tool_transfer = round(tool_transfer/0.01)*0.01)%>%
+  add_count(tool_transfer)
+
+median_gesture_orang<-plot_individual6  %>%
+  group_by(Gesture) %>% 
+  summarize(tool_transfer2 = median(tool_transfer))  
+
+p5<-ggplot(
+  data=plot_individual6, aes(Gesture, tool_transfer, group=dir_dyad)) +   
+  geom_boxplot(aes(group=Gesture), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual6$n, colour = "darkgrey", alpha=0.6) +
+  geom_line(lty=2, alpha=0.8, colour="darkgrey")+
+  ylim(0,0.8)+
+  labs(x="Gesture",y="Tool transfer")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  ggtitle("Orangutan")
+
+#ggsave("SpaghettiTube_tooltransfer.tiff", width = 10, height = 10, units = "cm")
+
+p5
+
+tiff("SpaghettiTube_tool_transfer_gestures.tiff", width= 120, height= 120, units = "mm", res=150)
+grid.arrange(p4, p5, nrow = 1, heights=unit(100, "mm"))
+dev.off()
+
+
+
+
+
+
 ```
 
 ```{r error=FALSE, echo=FALSE}
