@@ -418,6 +418,12 @@ xdrop1=drop1(mm1, test="Chisq")
 round(xdrop1,3)
 ```
 
+```{r}
+tab_model(mm1, show.est = TRUE, show.se = TRUE, show.stat = TRUE, )#,file="test.doc", )
+
+```
+
+
 ###GLMM02 without the interaction
 
 
