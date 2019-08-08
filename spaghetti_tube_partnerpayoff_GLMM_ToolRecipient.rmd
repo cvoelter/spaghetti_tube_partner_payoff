@@ -26,7 +26,7 @@ source("../../R scripts/Roger/glmm_stability.r")
 source("../../R scripts/Roger/boxplotteR.r")
 source("../../R scripts/Roger/boot_glmm.r")
 source("../../R scripts/Roger/corr_exact.r")
-#load(file ="GLMM_SpaghettiTube_partnerPayoffs_toolrecipient.RData")
+load(file ="ToolRecipient_models_SpaghettiTube_partnerPayoffs.RData")
 #readRDS(file ="multpos_model.rds")
 ```
 
@@ -67,11 +67,31 @@ ggplot(
   geom_line(lty=2, alpha=0.4, colour="darkgrey")+
   #ylim(0,12)+
   labs(x="Condition",y="Tool in Tube")+
-  theme_few()#+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  scale_x_discrete(labels=c("High","Low","High","Low"), breaks=c("High.High","Low.High", "High.Nothing", "Low.Nothing"))
   #scale_y_continuous(breaks=seq(0,12,2))
+```
 
+
+```{r}
+spaghetti.labs <- c("Tube baited", "Tube unbaited")
+names(spaghetti.labs) <- c("High", "Nothing")
+
+ggplot(
+  data=plot_individual, aes(NonsocialRoom4, tool_in_Tube, group=dir_dyad)) +   
+  geom_boxplot(aes(group=interaction(NonsocialRoom4,SpaghettiTube)), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  #ylim(0,12)+
+  labs(x="Non-social apparatus",y="Tool in Tube")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  facet_wrap(~ SpaghettiTube,labeller=labeller(SpaghettiTube=spaghetti.labs))
 
 ```
+
+
 ```{r error=FALSE, echo=FALSE}
 #Tool recipient: spaghetti tube
 plot_individual2 <- all.data %>%
@@ -225,57 +245,6 @@ dev.off()
 
 ```
 
-```{r error=FALSE, echo=FALSE}
-
-theme_set(theme_classic())
-
-# Plot
-ggplot(all.data, aes(x=factor(chimp), y=factor(trial_total), group=pull_action)) + 
-  geom_point(stat='identity', aes(shape=pull_action, col=correct), size=5) +
-  scale_shape_manual(values=c(7,15), name="Ropes pulled")+
-      scale_color_manual(name="Reward obtained", 
-                     labels = c("no", "yes"), 
-                     values = c("yes"="#00ba38", "no"="darkblue")) +
-# 
-#   geom_segment(aes(x=chimp, 
-#                    xend=chimp, 
-#                    y=min(trial), 
-#                    yend=max(trial)), 
-#              #  linetype="dashed", 
-#                size=0.5,
-#                colour="grey") +
-#     geom_segment(aes(x=chimp, 
-#                    xend=chimp, 
-#                    y=min(7), 
-#                    yend=max(18)), 
-#              #  linetype="dashed", 
-#                size=0.5,
-#                colour="grey") +
-#      geom_segment(aes(x=chimp, 
-#                    xend=chimp, 
-#                    y=min(19), 
-#                    yend=max(24)), 
-#               # linetype="dashed", 
-#                size=0.5,
-#                colour="grey") + 
- theme(
-  axis.title.x = element_blank(),
-  axis.title.y = element_blank(),
-  axis.ticks = element_blank())+
-  geom_hline(yintercept=6.5, linetype="dashed", "black", size=0.75)+
-  geom_hline(yintercept=18.5, linetype="dashed", "black", size=0.75)+
- # scale_x_discrete(name ="Chimp ID")+
-  scale_y_discrete(breaks=c(3,12,22),labels=c("Transparent 1", "Opaque", "Transparent 2"))+ #name= "Condition",
-  guides(color = guide_legend(order = 2),
-         shape = guide_legend(order = 1))+
-  coord_flip()
-
-
-```
-
-
-
-
 
 \pagebreak  
 ``
@@ -294,7 +263,6 @@ xx.fe.re$summary
 
 # centering variables for modeling
 model.recipient.data <- all.data %>% 
-  filter(tool_trans==1)
   mutate(z.Trial = scale(Trial, scale = T, center = T),
          z.Session = scale(Session, scale=T, center=T),
          SpaghettiTube.c = scale(as.numeric(SpaghettiTube), scale=F,center=T),
@@ -338,14 +306,14 @@ mm1 <- glmer(tool_intube~ SpaghettiTube*NonsocialRoom4  + Highpass +
 ```{r include=FALSE}
 ## save model output
 
-save.image("mm1_SpaghettiTube_partnerPayoffs.RData")
+save.image("ToolRecipient_models_SpaghettiTube_partnerPayoffs.RData")
 ```
 ####Confidence intervals
 Confidence intervals for the binomial models were derived using the function bootMer of the R package lme4, using 1,000 parametric bootstraps and bootstrapping over the random effects.
 
 ```{R eval=FALSE}		
 #boot.res=boot.glmm(model.res=mm.1, excl.warnings=T,nboots=1000, para=T)
-saveRDS(boot.res, "multpos_model.rds")
+#saveRDS(boot.res, "multpos_model.rds")
 ```
 
 ```{R echo=FALSE}		
@@ -354,7 +322,7 @@ round(readRDS(file ="multpos_model.rds"), 3)
 
 ####Null model	 
 ```{r}	 
-mm.1.null <- glmer(tool_trans~1+
+mm.1.null <- glmer(tool_intube~1+
              (1|Room3)+(1|Room4)+ (1|Dyad)+
              
              (0+z.Session|Room3)+ 
@@ -364,15 +332,11 @@ mm.1.null <- glmer(tool_trans~1+
              (0+z.Trial|Room3)+ 
              (0+z.Trial|Room4)+
              (0+z.Trial|Dyad)+
-             
-             (0+Presence|Room3)+ 
-             (0+Presence|Room4)+
-             (0+Presence|Dyad)+  
-             
-             (0+NonsocialRoom3.c|Room3)+ 
-             (0+NonsocialRoom3.c|Room4)+
-             (0+NonsocialRoom3.c|Dyad)+
-             
+               
+             (0+Highpass.c|Room3)+ 
+             (0+Highpass.c|Room4)+
+             (0+Highpass.c|Dyad)+
+
              (0+SpaghettiTube.c|Room3)+ 
              (0+SpaghettiTube.c|Room4)+
              (0+SpaghettiTube.c|Dyad)+
@@ -384,7 +348,7 @@ mm.1.null <- glmer(tool_trans~1+
              (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
              (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
              (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad) 
-             , data = model.data
+             , data = model.recipient.data
              , family = binomial
              , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
 )
@@ -406,10 +370,10 @@ xdrop1=drop1(mm1, test="Chisq")
 round(xdrop1,3)
 ```
 
-```{r}
-tab_model(mm1, show.est = TRUE, show.se = TRUE, show.stat = TRUE, )#,file="test.doc", )
 
-```
+####Stop Here
+
+
 
 
 ###GLMM02 without the interaction
