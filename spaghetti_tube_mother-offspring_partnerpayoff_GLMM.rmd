@@ -1,0 +1,410 @@
+---
+title: "Spaghetti tube - Mother-offspring with doors open and closed (aka Phase 4)"
+author: "Christoph Voelter"
+date: "August 29, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+Do orangutans consider whether infants would and could cooperate?
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library (car)
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(ggplot2)
+library(scales)
+library(gridExtra)
+library(psych)
+library(summarytools)
+source("../../R scripts/Roger/diagnostic_fcns.r")
+source("../../R scripts/Roger/glmm_stability.r")
+source("../../R scripts/Roger/boxplotteR.r")
+source("../../R scripts/Roger/boot_glmm.r")
+source("../../R scripts/Roger/corr_exact.r")
+source("../../R scripts/Roger/ci_glm.r")
+#load(file ="mm1_SpaghettiTube_partnerPayoffs.RData")
+
+#readRDS(file ="multpos_model.rds")
+```
+
+```{r loading data, include = FALSE, warning = FALSE}
+#Preparing code for mixed modeling. 
+phase4a.data <- read.table(file="data/SpaghettiTube_data_2014_Phase4.txt", header=T, sep="\t")
+phase4b.data <- read.table(file="data/SpaghettiTube_data_2014_Phase4b.txt", header=T, sep="\t")
+
+pad_data<- phase4a.data%>%
+  filter(Subject=="Padana")
+dok_data<- phase4a.data%>%
+  filter(Subject=="Dokana")%>%
+  mutate(Subject = fct_recode(Subject, "Dokana (apple)"="Dokana"))
+
+dok_data2<- phase4b.data %>%
+  filter(Subject=="Dokana")%>%
+  mutate(Subject = fct_recode(Subject, "Dokana (carrot)"="Dokana"))
+
+describeBy(phase4a.data )
+
+
+
+view(dfSummary(phase4a.data ))
+
+view(dfSummary(phase4b.data ))
+```
+what did the juveniles do with the tool?
+
+```{r}
+suaq_data<-pad_data%>%
+  filter(tool_transfer==1)%>%
+  filter(door=="open")%>%
+  group_by(Room.Baited) %>% 
+  summarize(tool_tube = mean(tool_in_tube), n=length(tool_in_tube), sum=sum(tool_in_tube)) %>% 
+  mutate(not_tube = n - sum)
+
+x<-matrix(c(as.vector(suaq_data$not_tube), as.vector(suaq_data$sum)), ncol=2)
+fisher.test(x)
+
+tan_data<-dok_data2%>%
+  filter(tool_transfer==1)%>%
+  filter(door=="open")%>%
+  group_by(Room.Baited) %>% 
+  summarize(tool_tube = mean(tool_in_tube), n=length(tool_in_tube), sum=sum(tool_in_tube)) %>% 
+  mutate(not_tube = n - sum)
+
+y<-matrix(c(as.vector(tan_data$not_tube), as.vector(tan_data$sum)), ncol=2)
+fisher.test(y)
+```
+
+what happened to the tool when juveniles refused to insert the tool
+```{r}
+tan_data2<-dok_data2%>%
+  filter(tool_transfer==1)%>%
+  filter(door=="open")%>%
+  filter(tool_in_tube==0)
+
+view(dfSummary(tan_data2 ))
+
+suaq_data2<-pad_data%>%
+  filter(tool_transfer==1)%>%
+  filter(door=="open")%>%
+  filter(tool_in_tube==0)
+
+view(dfSummary(suaq_data2 ))
+```
+
+
+
+
+
+##Summary
+
+
+##Plotting data
+```{r error=FALSE, echo=FALSE}
+
+plot_pad <- pad_data %>%
+  group_by(Subject, door, Room.Baited) %>% 
+  summarize(tool_transfer = mean(tool_transfer)) %>% 
+  full_join(pad_ci)
+
+
+plot_dok1 <- dok_data %>%
+  group_by(Subject, door, Room.Baited) %>% 
+  summarize(tool_transfer = mean(tool_transfer))%>%
+  full_join(dok1_ci)
+
+plot_dok2 <- dok_data2 %>%
+  group_by(Subject, door, Room.Baited) %>% 
+  summarize(tool_transfer = mean(tool_transfer))%>%
+  full_join(dok_ci)
+
+plot.data <- plot_pad %>%
+  full_join(plot_dok1) %>%
+  full_join(plot_dok2)%>%
+  mutate(Room.Baited = fct_recode(Room.Baited, "tool-giver only"="giver_only"))
+
+
+
+```
+
+```{r}
+
+
+door.labs <- c("Door closed", "Door open")
+names(door.labs) <- c("closed", "open")
+
+p1<-ggplot(
+  data=plot.data, aes(Room.Baited, tool_transfer, fill=Subject)) +   
+  geom_bar(stat="identity", position=position_dodge())+
+  geom_errorbar(aes(y=orig, ymin=lwr, ymax=upr), width=.2,
+                 position=position_dodge(.9)) +
+  geom_point(aes(y=orig), width=.1,
+                 position=position_dodge(.9), show.legend = FALSE) +
+  ylim(0,1)+
+  labs(x="Payoffs",y="Tool transfer")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  scale_fill_manual(values=c('gray25', 'gray90', 'gray50'))+
+  theme_classic()+
+  facet_wrap(~ door,labeller=labeller(door=door.labs))
+
+p1
+
+#tiff(", width= 180, height= 120, units = "mm", res=150)
+#ggsave("SpaghettiTube_mother-offspring_ door and payoffs_wCI.jpeg", width = 14, height = 7, units = "cm", dpi=300)
+ggsave("SpaghettiTube_mother-offspring_ door and payoffsl_wCI.tiff", width = 14, height = 7, units = "cm", dpi=300)
+
+```
+
+
+
+
+
+\pagebreak  
+``
+
+## GLM
+
+###Padana-Suaq
+
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+model.data <- pad_data %>% 
+  mutate(z.Trial = scale(Trial_number, scale = T, center = T),
+         z.Session = scale(Session, scale=T, center=T))
+
+## code to run the model
+mm1 <- glm(tool_transfer~door*Room.Baited + z.Session+z.Trial
+             , data = model.data
+             , family = binomial
+)
+```
+
+
+####Null model	 
+```{r}	 
+mm.1.null <- glm(tool_transfer~1
+             , data = model.data
+             , family = binomial
+)
+```
+####Full-null model comparison
+```{r}	 
+anova(mm1, mm.1.null, test="Chisq")
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm1)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+
+```{r}
+xdrop1=drop1(mm1, test="Chisq")
+round(xdrop1,3)
+```
+
+##remove interaction
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+model.data <- pad_data %>% 
+  mutate(z.Trial = as.vector(scale(Trial_number, scale = T, center = T)),
+         z.Session = as.vector(scale(Session, scale=T, center=T)),
+         Room.Baited.c=scale(as.numeric(Room.Baited), center=T, scale = F))
+
+## code to run the model
+mm1.b <- glm(tool_transfer~door+Room.Baited + z.Session+z.Trial
+             , data = model.data
+             , family = binomial
+)
+```
+
+
+####Full-null model comparison
+```{r}	 
+anova(mm1.b, mm.1.null, test="Chisq")
+```
+
+```{r}
+xdrop1=drop1(mm1.b, test="Chisq")
+round(xdrop1,3)
+```
+```{r}
+round(summary(mm1.b)$coefficients, 3)
+```
+```{r}
+ci_pad<-cbind(coefficients(mm1.b), confint(object=mm1.b))
+```
+
+
+```{r}
+col.mm1.b <- glm(tool_transfer~door+Room.Baited + z.Session+z.Trial
+             , data = model.data
+)
+vif(col.mm1.b)
+```
+
+
+```{r}
+mm1.b.ci=ci.glm(mm1.b, resol=100, level=0.95, use="door")
+
+pad_ci<-mm1.b.ci%>%
+  mutate(Subject="Padana")
+
+```
+
+
+
+
+###Dokana-Suaq (with apple)
+
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+dok1.data <- dok_data %>% 
+  mutate(z.Trial = as.vector(scale(Trial_number, scale = T, center = T)),
+         z.Session = as.vector(scale(Session, scale=T, center=T)))
+
+## code to run the model
+mm1.dok1 <- glm(tool_transfer~door+Room.Baited + z.Session+z.Trial
+             , data = dok1.data
+             , family = binomial
+)
+```
+
+
+####Null model	 
+```{r}	 
+mm.1.null.dok1 <- glm(tool_transfer~1
+             , data = dok1.data
+             , family = binomial
+)
+```
+####Full-null model comparison
+```{r}	 
+anova(mm1.dok1, mm.1.null.dok1, test="Chisq")
+```
+
+```{r}
+mm1.dok1.ci=ci.glm(mm1.dok1 , resol=100, level=0.95, use="door")
+
+dok1_ci<-mm1.dok1.ci%>%
+  mutate(Subject="Dokana (apple)")
+
+```
+
+###Dokana-Suaq (with carrot)
+
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+dok2.data <- dok_data2 %>% 
+  mutate(z.Trial = as.vector(scale(Trial_number, scale = T, center = T)),
+         z.Session = as.vector(scale(Session, scale=T, center=T)))
+
+## code to run the model
+mm1.dok2 <- glm(tool_transfer~door*Room.Baited + z.Session+z.Trial
+             , data = dok2.data
+             , family = binomial
+)
+```
+
+
+####Null model	 
+```{r}	 
+mm.1.null.dok2 <- glm(tool_transfer~1
+             , data = dok2.data
+             , family = binomial
+)
+```
+####Full-null model comparison
+```{r}	 
+anova(mm1.dok2, mm.1.null.dok2, test="Chisq")
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm1.dok2)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+
+```{r}
+xdrop1.dok2=drop1(mm1.dok2, test="Chisq")
+round(xdrop1.dok2,3)
+```
+
+##remove interaction
+``` {r mixed modeling, error=TRUE}
+
+
+## code to run the model
+mm1.b.dok2 <- glm(tool_transfer~door+Room.Baited + z.Session+z.Trial
+             , data = dok2.data
+             , family = binomial
+)
+```
+
+
+####Full-null model comparison
+```{r}	 
+anova(mm1.b.dok2, mm.1.null.dok2, test="Chisq")
+```
+
+```{r}
+xdrop1b.dok2=drop1(mm1.b.dok2, test="Chisq")
+round(xdrop1b.dok2,3)
+```
+
+
+```{r}
+round(summary(mm1.b.dok2)$coefficients, 3)
+```
+
+```{r}
+cbind(coefficients(mm1.b.dok2), confint(object=mm1.b.dok2))
+```
+
+```{r}
+mm1.b.dok2.ci=ci.glm(mm1.b.dok2 , resol=100, level=0.95, use="door")
+
+dok_ci<-mm1.b.dok2.ci%>%
+  mutate(Subject="Dokana (carrot)")
+
+```
+
+```{r}
+save.image(file="SpaghettiTube_mother_offspring_workspace.RData")
+```
+
+
+
+```{r}
+col.mm1.b.dok2 <- glm(tool_transfer~door+Room.Baited + z.Session+z.Trial
+             , data = dok2.data
+)
+vif(col.mm1.b)
+```
+
+```{r}
+mean(pad_data$Session)
+sd(pad_data$Session)
+
+mean(pad_data$Trial_number)
+sd(pad_data$Trial_number)
+
+mean(dok_data2$Session)
+sd(dok_data2$Session)
+
+mean(dok_data2$Trial_number)
+sd(dok_data2$Trial_number)
+
+```

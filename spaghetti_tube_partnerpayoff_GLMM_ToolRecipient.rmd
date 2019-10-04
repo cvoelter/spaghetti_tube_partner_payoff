@@ -254,8 +254,9 @@ dev.off()
 ###GLMM 01 with Room 4 interaction
 
 ```{r eval=FALSE, echo=FALSE}
-xx.fe.re=fe.re.tab(fe.model="tool_trans ~ NonsocialRoom3 + SpaghettiTube*NonsocialRoom4+ Species+ Session+Trial+Presence ",
-                   re="(1|Room3)+ (1|Room4)+ (1|Dyad)", data=all.data)
+all.data2<-droplevels(all.data)
+xx.fe.re=fe.re.tab(fe.model="tool_intube~ SpaghettiTube*NonsocialRoom4  + Highpass + Species+ Session+Trial ",
+                   re="(1|Room3)+ (1|Room4)+ (1|Dyad)", data=all.data2)
 xx.fe.re$summary
 ```
 
@@ -282,9 +283,9 @@ mm1 <- glmer(tool_intube~ SpaghettiTube*NonsocialRoom4  + Highpass +
              (0+z.Trial|Room4)+
              (0+z.Trial|Dyad)+
                
-             (0+Highpass.c|Room3)+ 
-             (0+Highpass.c|Room4)+
-             (0+Highpass.c|Dyad)+
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
 
              (0+SpaghettiTube.c|Room3)+ 
              (0+SpaghettiTube.c|Room4)+
@@ -302,6 +303,64 @@ mm1 <- glmer(tool_intube~ SpaghettiTube*NonsocialRoom4  + Highpass +
              , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
 )
 ```
+
+```{r}
+## code to run the model
+library(brms)
+bmm1 <- brm(tool_intube~ SpaghettiTube*NonsocialRoom4  + Highpass +
+             Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+               
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+             
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad) 
+             , data = model.recipient.data
+             , family = 'bernoulli', save_all_pars = TRUE,
+)
+
+#plot(bmm1)
+#marginal_effects(bmm1)
+
+
+bmm1_no.int <- update(bmm1, formula = ~ .-SpaghettiTube:NonsocialRoom4)
+
+
+BF_brms_savage = hypothesis(bmm1 , hypothesis = 'SpaghettiTubeNothing:NonsocialRoom4Low = 0')  # H0: No interaction
+BF_brms_savage$hypothesis
+
+BF_brms = bayes_factor(bmm1, bmm1_no.int)
+BF_brms
+
+#Estimated Bayes factor in favor of bridge1 over bridge2: 141.07699
+
+
+```
+
+```
+
+
+```
+
 
 ```{r include=FALSE}
 ## save model output
@@ -322,7 +381,7 @@ round(readRDS(file ="multpos_model.rds"), 3)
 
 ####Null model	 
 ```{r}	 
-mm.1.null <- glmer(tool_intube~1+
+mm.1.null <- glmer(tool_intube~z.Session+z.Trial+
              (1|Room3)+(1|Room4)+ (1|Dyad)+
              
              (0+z.Session|Room3)+ 
@@ -333,9 +392,9 @@ mm.1.null <- glmer(tool_intube~1+
              (0+z.Trial|Room4)+
              (0+z.Trial|Dyad)+
                
-             (0+Highpass.c|Room3)+ 
-             (0+Highpass.c|Room4)+
-             (0+Highpass.c|Dyad)+
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
 
              (0+SpaghettiTube.c|Room3)+ 
              (0+SpaghettiTube.c|Room4)+
@@ -371,8 +430,6 @@ round(xdrop1,3)
 ```
 
 
-####Stop Here
-
 
 
 
@@ -380,7 +437,7 @@ round(xdrop1,3)
 
 
 ``` {r mixed modeling2, error=TRUE}
-mm2 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube+NonsocialRoom4  + Presence+
+mm2 <- glmer(tool_intube~ SpaghettiTube+NonsocialRoom4  + Highpass +
              Species+ z.Session+z.Trial+
              (1|Room3)+(1|Room4)+ (1|Dyad)+
              
@@ -391,15 +448,11 @@ mm2 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube+NonsocialRoom4  + Presenc
              (0+z.Trial|Room3)+ 
              (0+z.Trial|Room4)+
              (0+z.Trial|Dyad)+
-             
-             (0+NonsocialRoom3.c|Room3)+ 
-             (0+NonsocialRoom3.c|Room4)+
-             (0+NonsocialRoom3.c|Dyad)+
                
-             (0+Presence|Room3)+ 
-             (0+Presence|Room4)+
-             (0+Presence|Dyad)+
-             
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
+
              (0+SpaghettiTube.c|Room3)+ 
              (0+SpaghettiTube.c|Room4)+
              (0+SpaghettiTube.c|Dyad)+
@@ -407,14 +460,15 @@ mm2 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube+NonsocialRoom4  + Presenc
              (0+NonsocialRoom4.c|Room3)+ 
              (0+NonsocialRoom4.c|Room4)+
              (0+NonsocialRoom4.c|Dyad)
-             , data = model.data
+            
+             , data = model.recipient.data
              , family = binomial
              , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
 )
 ```
 ####Null model	 
 ```{r}	 
-mm.2.null <- glmer(tool_trans~1+
+mm.2.null <- glmer(tool_intube~ 1+
              (1|Room3)+(1|Room4)+ (1|Dyad)+
              
              (0+z.Session|Room3)+ 
@@ -424,15 +478,11 @@ mm.2.null <- glmer(tool_trans~1+
              (0+z.Trial|Room3)+ 
              (0+z.Trial|Room4)+
              (0+z.Trial|Dyad)+
-             
-             (0+Presence|Room3)+ 
-             (0+Presence|Room4)+
-             (0+Presence|Dyad)+  
-             
-             (0+NonsocialRoom3.c|Room3)+ 
-             (0+NonsocialRoom3.c|Room4)+
-             (0+NonsocialRoom3.c|Dyad)+
-             
+               
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
+
              (0+SpaghettiTube.c|Room3)+ 
              (0+SpaghettiTube.c|Room4)+
              (0+SpaghettiTube.c|Dyad)+
@@ -440,8 +490,8 @@ mm.2.null <- glmer(tool_trans~1+
              (0+NonsocialRoom4.c|Room3)+ 
              (0+NonsocialRoom4.c|Room4)+
              (0+NonsocialRoom4.c|Dyad)
-             
-             , data = model.data
+            
+             , data = model.recipient.data
              , family = binomial
              , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
 )
@@ -466,13 +516,21 @@ xdrop2=drop1(mm2, test="Chisq")
 round(xdrop2,3)
 ```
 
+mean and SE of the covariates: 
+```{r}
+mean(model.recipient.data$Session)
+sd(model.recipient.data$Session)
 
+mean(model.recipient.data$Trial)
+sd(model.recipient.data$Trial)
+
+``` 
 
 
 ``` {r include=FALSE}
 ## save model output
 #saveRDS(mm.2, "multpos_model.rds")
-save.image("SpaghettiTube_partnerPayoffs_GLMMs_tool transfer.RData")
+save.image("ToolRecipient_models_SpaghettiTube_partnerPayoffs.RData")
 ```
 
 ####Confidence intervals
@@ -493,9 +551,9 @@ round(readRDS(file ="multpos_model2.rds"), 3)
 
 ```{R echo=FALSE, error=FALSE, warning=FALSE}
 
-col.mm1 <- glm(tool_trans ~ NonsocialRoom3 + SpaghettiTube+NonsocialRoom4  + Presence+
+col.mm1 <- glm(tool_intube~ SpaghettiTube+NonsocialRoom4  + Highpass +
              Species+ z.Session+z.Trial
-             , data = model.data
+             , data = model.recipient.data
              
 )
 vif(col.mm1)

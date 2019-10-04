@@ -1,0 +1,110 @@
+---
+title: "Spaghetti_tube_partner_Payoffs_reliCoding"
+author: "Christoph Völter"
+date: "8 September 2019"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library (car)
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(ggplot2)
+library(scales)
+library(gridExtra)
+library(psych)
+library(summarytools)
+library(irr)
+source("../../R scripts/Roger/diagnostic_fcns.r")
+source("../../R scripts/Roger/glmm_stability.r")
+source("../../R scripts/Roger/boxplotteR.r")
+source("../../R scripts/Roger/boot_glmm.r")
+source("../../R scripts/Roger/corr_exact.r")
+#load(file ="mm1_SpaghettiTube_partnerPayoffs.RData")
+#readRDS(file ="multpos_model.rds")
+```
+
+
+```{r loading data, include = FALSE, warning = FALSE}
+#Preparing code for mixed modeling. 
+all.data <- read.table(file="data/Kodieren ueberein_reli.txt", header=T, sep="\t")
+str(all.data)
+describeBy(all.data)
+
+
+all.data<-all.data %>%
+  filter(Species!="") %>%
+  filter(Tool.from.3.to.4!="")
+
+all.data<-droplevels(all.data)
+
+  
+
+view(dfSummary(all.data))
+
+```
+
+##tool transfer
+```{r}
+xdata<-all.data
+kdata=cbind(xdata$Tool.from.3.to.4, xdata$Tool.from.3.to.4_reli)
+kappa2(kdata)
+table(xdata$Tool.from.3.to.4, xdata$Tool.from.3.to.4_reli)
+```
+
+##tool in tube
+```{r}
+ydata<-all.data%>%
+  filter(Tool.in.Apparatus!="/")
+kdata=cbind(ydata$Tool.in.Apparatus, ydata$Tool.in.Apparatus_reli)
+kappa2(kdata)
+table(ydata$Tool.in.Apparatus, ydata$Tool.in.Apparatus_reli)
+```
+##gestures with ?
+```{r}
+xdata<-all.data
+xdata<-droplevels((xdata))
+kdata=cbind(xdata$Gesture_code1, xdata$Gesture_code2)
+kappa2(kdata)
+table(xdata$Gesture_code1, xdata$Gesture_code2)
+```
+
+##gestures without ?
+```{r}
+xdata<-all.data%>%
+  filter(Gesture_code2!="?")%>%
+  filter(Gesture_code1!="?")
+xdata<-droplevels((xdata))
+kdata=cbind(xdata$Gesture_code1, xdata$Gesture_code2)
+kappa2(kdata)
+table(xdata$Gesture_code1, xdata$Gesture_code2)
+```
+
+
+##presence
+```{r}
+xdata<-all.data%>%
+  filter(Presence!="?")
+xdata<-droplevels((xdata))
+kdata=cbind(xdata$Presence, xdata$Presence_reli)
+kappa2(kdata)
+table(xdata$Presence, xdata$Presence_reli)
+```
+
+##Highpass
+```{r}
+xdata<-all.data%>%
+  mutate(HighPass = ifelse(Relative=="above","yes",(ifelse(Absolute=="above","yes",(ifelse(Relative=="body","no",(ifelse(Absolute=="below","no","/"))))))))%>%
+    mutate(HighPass_reli = ifelse(Relative_reli=="above","yes",(ifelse(Absolute_reli=="above","yes",(ifelse(Relative_reli=="body","no",(ifelse(Absolute_reli=="below","no","/"))))))))%>%
+  filter(HighPass!="/")
+xdata<-droplevels((xdata))
+kdata=cbind(xdata$HighPass, xdata$HighPass_reli)
+kappa2(kdata)
+table(xdata$HighPass, xdata$HighPass_reli)
+```

@@ -1,0 +1,129 @@
+Species	Subject	Child	Condition	Session	Condition	door	Trial_number	Room Baited	Tool given to M	tool_transfer	tool_inserted_by	Where	tool_in_tube	Transfer	social tool use	comment	reward
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	1	open	1	both	Room 2	1	i	Stube	1				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	1	open	2	both	Room 2	1	i	Stube	1				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	2	open	3	giver_only	Room 2	1	i	Stube	1				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	2	open	4	giver_only	Room 2	1	i	Stube	1		Social tool use Pushing Suaq		
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	3	closed	5	both	Room 2	0	No	Give Back to E	0		Padana tries to get food from tube by throwing the tool against the tube		
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	3	closed	6	both	Room 2	0	No	Give Back to E	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	4	closed	7	giver_only	Room 2	0	No	Give Back to E	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	1	4	closed	8	giver_only	Room 2	0	No	Give Back to E	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	3	closed	1	both	Room 2	1	i	Nsocial	0		"Dokana gives tool to Tanah, she then takes it back, then Tanah takes tool and uses the nonsocial apparatus"		
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	3	closed	2	both	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	1	open	3	both	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	1	open	4	both	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	2	open	5	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	2	open	6	giver_only	Room 2	0	m	Nsocial	0		Tanah tried to prevent Dokana from using the nonsocial apparatus		
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	4	closed	7	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	1	4	closed	8	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	1	open	1	both	Room 2	1	i	Stube	1			Active transfer	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	1	open	2	both	Room 2	1	i	Stube	1			Active transfer	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	4	closed	3	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	4	closed	4	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	3	closed	5	both	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	3	closed	6	both	Room 2	1	m	Nsocial	0			Active transfer but then infant gives tool back to mother and she uses it in the nonsocial app	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	2	open	7	giver_only	Room 2	1	i	Stube	1		Yes	Active transfer	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	2	2	open	8	giver_only	Room 2	1	i	Nsocial	0		Yes	"Active transfer but infant decides not to push tool in tube, then returns to Padana, padana pushes suaq back but finally she takes the tool and uses it in the Nonsocial apparatus"	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	3	closed	1	both	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	3	closed	2	both	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	4	closed	3	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	4	closed	4	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	1	open	5	both	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	1	open	6	both	Room 2	1	i	Stube	1			"Passive transfer, Tanah takes tool from Dokana"	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	2	open	7	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	2	2	open	8	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	4	closed	1	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	4	closed	2	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	2	open	3	giver_only	Room 2	1	Nobody		0		Yes	Suaq abandons tool in 3 and Padana gets apple by spitting water agains it	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	2	open	4	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	1	open	5	both	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	1	open	6	both	Room 2	1	i	Stube	1			Active tr. Suaq in 4	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	3	closed	7	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	3	3	closed	8	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	2	open	1	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	2	open	2	giver_only	Room 2	0	m	Nsocial	0			Tanah in 4	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	1	open	3	both	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	1	open	4	both	Room 2	0	m	Nsocial	0			Tanah in 4	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	4	closed	5	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	4	closed	6	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	3	closed	7	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	3	3	closed	8	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	4	closed	1	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	4	closed	2	giver_only	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	3	closed	3	both	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	3	closed	4	both	Room 2	0	m	Nsocial	0				
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	2	open	5	giver_only	Room 2	1	m	Nsocial	0			Active tr. Suaq in 4	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	2	open	6	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	1	open	7	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	4	1	open	8	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	2	open	1	giver_only	Room 2	0	m	Nsocial	0			Tanah in 4	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	2	open	2	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	3	closed	3	both	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	3	closed	4	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	4	closed	5	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	4	closed	6	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	1	open	7	both	Room 2	0	m	Nsocial	0			Tanah in 4	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	4	1	open	8	both	Room 2	0	m	Nsocial	0			Tanah in 4	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	2	open	1	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	2	open	2	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	1	open	3	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	1	open	4	both	Room 2	1	m	Nsocial	0		yes	"Active transfer, Padana tried to push Suaq to room 3 but Suaq resists. Then Padana uses tool in Nsoc apparatus"	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	4	closed	5	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	4	closed	6	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	3	closed	7	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	5	3	closed	8	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	4	closed	1	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	4	closed	2	giver_only	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	2	open	3	giver_only	Room 2	1	m	Nsocial	0			"Active transfer, Tanah in 2, Tanah goes to room 3 but does not go to 4, plays with tool and then returns to room 2 and tries to use the tool in Nsoc apparatus, Dokana takes the tool away and then uses tool in Nsoc apparatus"	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	2	open	4	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	1	open	5	both	Room 2	0	m	Nsocial	0			Tanah in 4	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	1	open	6	both	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	3	closed	7	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	5	3	closed	8	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	2	open	1	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	2	open	2	giver_only	Room 2	0	m	Nsocial	0			"Suaq is in 4 because there were pellets in room 3 and 4 and Padana tried to push him there to get the pellets, before she was given the tool. Once she is given the tool, Padana tries to hand Suaq the tool in room 3 but Suaq does not come back, so Padana decides to use the Nsocial apparatus"	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	3	closed	3	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	3	closed	4	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	4	closed	5	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	4	closed	6	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	1	open	7	both	Room 2	1	i	Stube	1			"Suaq in 2, moves to room 4, Padana hands him the tool through active transfer. Nice how Padana checks where Suaq is when he initially fails to come back"	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	6	1	open	8	both	Room 2	1	i	Stube	1		Yes	"Suaq in 2, Padana pushes him to room 3 via social tool use but Suaq gets away without the tool. Then Padana hands him the tool in 3 with Suaq coming back to room 3 from room 4"	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	4	closed	1	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	4	closed	2	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	3	closed	3	both	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	3	closed	4	both	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	2	open	5	giver_only	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	2	open	6	giver_only	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	1	open	7	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	6	1	open	8	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	3	closed	1	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	3	closed	2	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	1	open	3	both	Room 2	1	i	Stube	1			"Suaq in 4, active transfer, Padana checks if C door is open"	Nice for clips
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	1	open	4	both	Room 2	1	i	Stube	1			"Suaq in 4, active transfer"	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	2	open	5	giver_only	Room 2	1	m	Nsocial	0			"Suaq in 4, Padana gives tool to S but S returns to M P uses Nsoc apparatus"	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	2	open	6	giver_only	Room 2	1	m	Nsocial	0			"Suaq in 4, Padana gives tool to S but S does not use it, so P takes tool back and P uses Nsoc apparatus"	Nice for Clips
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	4	closed	7	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	7	4	closed	8	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	1	open	1	both	Room 2	0	m	Nsocial	0			Tanah in 3	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	1	open	2	both	Room 2	0	m	Nsocial	0			Tanah in 3/4?	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	2	open	3	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	2	open	4	giver_only	Room 2	1	i	Nsocial	0	Passive		Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	3	closed	5	both	Room 2	1	i	Nsocial	0	Passive		Tanah in 3	Dokana ate the reward
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	3	closed	6	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	4	closed	7	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	7	4	closed	8	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	3	closed	1	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	3	closed	2	both	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	4	closed	3	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	4	closed	4	giver_only	Room 2	0	m	Nsocial	0			Suaq in 2	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	1	open	5	both	Room 2	1	i	Stube	1	Active	no	"S in 2, runs to 4"	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	1	open	6	both	Room 2	1	i	Stube	1	Active	no	S in 4	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	2	open	7	giver_only	Room 2	1	m	Nsocial	0	Active	"first transfer no, then yes but failed"	"S in 4, active transfer, S gives tool back, P tries social tool use but S gets away so P goes to Nsoc"	
+Orangutan	Padana	Suaq	2x2infant_Nonsocial	8	2	open	8	giver_only	Room 2	1	m	Nsocial	0	Active	"First yes but failed, then, active transfer"	"S in 2 first Social tool use but S gets away without tool. Then P attracts S by banging tool on the ground, S comes back from 4 and takes it but goes nowhere. After a while S goes back to room 2, P gets the tool and uses the Nsoc apparatus"	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	1	open	1	both	Room 2	0	m	Nsocial	0			Tanah in 4	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	1	open	2	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	4	closed	3	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	4	closed	4	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	3	closed	5	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	3	closed	6	both	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	2	open	7	giver_only	Room 2	0	m	Nsocial	0			Tanah in 2	
+Orangutan	Dokana	Tana	2x2infant_Nonsocial	8	2	open	8	giver_only	Room 2	0	m	Nsocial	0			Tanah in 3	

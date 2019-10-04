@@ -501,7 +501,7 @@ mm2 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube+NonsocialRoom4  + Presenc
 ```
 ####Null model	 
 ```{r}	 
-mm.2.null <- glmer(tool_trans~1+
+mm.2.null <- glmer(tool_trans~ z.Session+z.Trial+
              (1|Room3)+(1|Room4)+ (1|Dyad)+
              
              (0+z.Session|Room3)+ 
@@ -554,7 +554,15 @@ round(xdrop2,3)
 ```
 
 
+mean and SE of the covariates: 
+```{r}
+mean(model.data$Session)
+sd(model.data$Session)
 
+mean(model.data$Trial)
+sd(model.data$Trial)
+
+``` 
 
 ``` {r include=FALSE}
 ## save model output
@@ -669,7 +677,7 @@ mm3 <- glmer(tool_trans~NonsocialRoom3 + (SpaghettiTube*NonsocialRoom4)  + Prese
 
 ####Null model	 
 ```{r}	 
-mm.3.null <- glmer(tool_trans~1+
+mm.3.null <- glmer(tool_trans~z.Session+z.Trial+
              (1|Room3)+(1|Room4)+ (1|Dyad)+
              
              (0+z.Session|Room3)+ 
@@ -950,12 +958,92 @@ mm5 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube + NonsocialRoom4  + Prese
 ```{r}
 round(summary(mm5)$coefficients, 3)
 ```
+ 
+```{r}
+tab_model(mm5, show.est = TRUE, show.se = TRUE, show.stat = TRUE, transform = NULL, show.ci = FALSE,file="mm5_output_tab.doc")
+
+```
+
+mean and SE of the covariates: 
+```{r}
+mean(model.data$Session)
+sd(model.data$Session)
+
+mean(model.data$Trial)
+sd(model.data$Trial)
+
+``` 
+
+
+
+
   + Individual predictors: likelihood ratio tests  
 Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
 ```{r}
 xdrop5=drop1(mm5, test="Chisq")
-round(xdrop5,3)
+round(xdrop5,6)
 ```
+
+
+#GLMM 5 with Gesture and Gesture*Species interaction: Species relevelled
+
+
+
+
+``` {r mixed modeling, error=TRUE}
+model.data$Species2<-relevel(model.data$Species, "Orangutan")
+
+## code to run the model
+mm5_Species2 <- glmer(tool_trans~NonsocialRoom3 + SpaghettiTube +NonsocialRoom4  + Presence+ Gesture*Species2+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+             
+             (0+NonsocialRoom3.c|Room3)+ 
+             (0+NonsocialRoom3.c|Room4)+
+             (0+NonsocialRoom3.c|Dyad)+
+               
+             (0+Presence.c|Room3)+ 
+             (0+Presence.c|Room4)+
+             (0+Presence.c|Dyad)+
+              
+             (0+Gesture.c|Room3)+ 
+             (0+Gesture.c|Room4)+
+             (0+Gesture.c|Dyad)+
+             
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm5_Species2)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop5_Species2=drop1(mm5_Species2, test="Chisq")
+round(xdrop5_Species2,3)
+```
+
+
 
 ``` {r mixed modeling, error=TRUE}
 
