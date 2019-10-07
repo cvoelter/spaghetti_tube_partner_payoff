@@ -1,0 +1,349 @@
+---
+title: "Spaghetti tube - Partner Payoffs Gesture (aka Phase 7)"
+author: "Christoph Voelter"
+date: "August 02, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library (car)
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(ggplot2)
+library(scales)
+library(gridExtra)
+library(psych)
+library(summarytools)
+source("../../R scripts/Roger/diagnostic_fcns.r")
+source("../../R scripts/Roger/glmm_stability.r")
+source("../../R scripts/Roger/boxplotteR.r")
+source("../../R scripts/Roger/boot_glmm.r")
+source("../../R scripts/Roger/corr_exact.r")
+load(file =".rData")
+#readRDS(file ="multpos_model.rds")
+```
+
+```{r loading data, include = FALSE, warning = FALSE}
+#Preparing code for mixed modeling. 
+all.data <- read.table(file="data/Spaghetti_Tube_Phase7_data_for_r.txt", header=T, sep="\t")
+str(all.data)
+describeBy(all.data)
+
+all.data<-all.data %>%
+  mutate(BeggingGestures = na_if(BeggingGestures, "?")) %>%
+  mutate(AttgetObeg = na_if(AttgetObeg, "?")) %>%
+  mutate(Gesture = ifelse(BeggingGestures=="yes",1,(ifelse(AttgetObeg=="yes",1,0))))%>%
+  na.omit(cols=Gesture)
+
+  
+all.data<-droplevels(all.data)
+all.data$Gesture=as.numeric(all.data$Gesture)
+view(dfSummary(all.data))
+
+```
+
+
+
+
+```{r error=FALSE, echo=FALSE}
+#Tool recipient: spaghetti tube
+plot_individual2 <- all.data %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(Species, dir_dyad) %>% 
+  summarize(Gesture2 = mean(Gesture))  %>%
+  mutate(Gesture2 = round(Gesture2/0.01)*0.01)%>%
+  add_count(Gesture2)
+
+median_highpass<-plot_individual2  %>%
+  group_by(Species) %>% 
+  summarize(Gesture.m = median(Gesture2))  
+
+
+p1 <- ggplot(
+  data=plot_individual2, aes(Species, Gesture2, group=dir_dyad)) +   
+  geom_boxplot(aes(group=Species), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual2$n, colour = "darkgrey", alpha=0.4) +
+  geom_line(lty=2, alpha=0.4)+
+  ylim(0,1)+
+  labs(x="Species",y="Gesture")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+     # ggtitle("Tool giver: Non-social Payoff")
+
+#tiff("SpaghettiTube_tool_transfer_predictors.tiff", width= 180, height= 120, units = "mm", res=150)
+#grid.arrange(p1, p2,p3, nrow = 1, heights=unit(100, "mm"))
+#dev.off()
+p1
+#ggsave("SpaghettiTube_gesture.png", width = 9, height = 7, units = "cm")
+
+
+```
+##Plotting data
+```{r error=FALSE, echo=FALSE}
+
+plot_individual <- all.data %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(NonsocialRoom4,SpaghettiTube, dir_dyad ) %>% 
+  summarize(Gesture2 = mean(Gesture))  %>%
+  mutate(Gesture2 = round(Gesture2/0.01)*0.01)%>%
+  add_count(Gesture2)
+
+spaghetti.labs <- c("Tube: High", "Tube: Nothing")
+names(spaghetti.labs) <- c("High", "Nothing")
+
+p1<-ggplot(
+  data=plot_individual, aes(NonsocialRoom4, Gesture2, group=dir_dyad)) +   
+  geom_boxplot(aes(group=interaction(NonsocialRoom4,SpaghettiTube)), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  ylim(0,1)+
+  labs(x="Non-social apparatus",y="Gesture")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  facet_wrap(~ SpaghettiTube,labeller=labeller(SpaghettiTube=spaghetti.labs))
+
+p1
+#ggsave("SpaghettiTube_gesture payoffs.png", width = 9, height = 7, units = "cm")
+
+```
+
+
+
+
+
+
+
+#GLMM with gesture
+
+```{r eval=FALSE, echo=FALSE}
+xx.fe.re=fe.re.tab(fe.model="Gesture ~ NonsocialRoom3+SpaghettiTube+NonsocialRoom4+ Species+ Session+Trial",
+                   re="(1|Room3)+ (1|Room4)+ (1|Dyad)", data=all.data)
+xx.fe.re$summary
+```
+
+
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+
+model.data <- all.data %>% 
+  na.omit(cols=Gesture)%>% 
+  mutate(z.Trial = scale(Trial, scale = T, center = T),
+         z.Session = scale(Session, scale=T, center=T),
+         BeggingGestures = relevel(BeggingGestures, ref = "yes"),
+         AttgetObeg = relevel(AttgetObeg, ref = "yes"),
+         NonsocialRoom3.c = scale(as.numeric(NonsocialRoom3), scale=F,center=T),
+         SpaghettiTube.c = scale(as.numeric(SpaghettiTube), scale=F,center=T),
+         NonsocialRoom4.c = scale(as.numeric(NonsocialRoom4), scale=F,center=T),
+         Gesture.c = as.numeric(Gesture)-mean(as.numeric(Gesture)),
+         Presence.c = scale(as.numeric(Presence), scale=F,center=T),
+         Species.c = scale(as.numeric(Species), scale=F,center=T))
+
+```
+
+
+``` {r mixed modeling, error=TRUE}
+
+
+## code to run the model
+mm.S3 <- glmer(Gesture ~ NonsocialRoom3+SpaghettiTube*NonsocialRoom4 + Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+               
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad)
+
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+``` {r mixed modeling, error=TRUE}
+
+
+## code to run the model
+mm.S3.null <- glmer(Gesture ~ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+               
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad)
+
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+####Full-null model comparison
+```{r}	 
+anova(mm.S3, mm.S3.null, test="Chisq")
+```
+```{r}
+round(summary(mm.S3)$coefficients, 3)
+```
+
+```{r}
+xdrop1.mm.S3=drop1(mm.S3, test="Chisq")
+round(xdrop1.mm.S3,3)
+```
+
+#change reference category of spaghetti tube
+
+
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+
+model.data2 <- all.data %>% 
+  na.omit(cols=Gesture)%>% 
+  mutate(z.Trial = scale(Trial, scale = T, center = T),
+         z.Session = scale(Session, scale=T, center=T),
+         BeggingGestures = relevel(BeggingGestures, ref = "yes"),
+         SpaghettiTube = relevel(SpaghettiTube, ref = "Nothing"),
+         AttgetObeg = relevel(AttgetObeg, ref = "yes"),
+         NonsocialRoom3.c = scale(as.numeric(NonsocialRoom3), scale=F,center=T),
+         SpaghettiTube.c = scale(as.numeric(SpaghettiTube), scale=F,center=T),
+         NonsocialRoom4.c = scale(as.numeric(NonsocialRoom4), scale=F,center=T),
+         Gesture.c = as.numeric(Gesture)-mean(as.numeric(Gesture)),
+         Presence.c = scale(as.numeric(Presence), scale=F,center=T))
+
+```
+
+
+``` {r mixed modeling, error=TRUE}
+
+
+## code to run the model
+mm.S3b <- glmer(Gesture ~ NonsocialRoom3+SpaghettiTube*NonsocialRoom4 + Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+               
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad)
+
+             , data = model.data2
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+
+
+
+```{r}
+round(summary(mm.S3b)$coefficients, 3)
+```
+
+
+
+
+
+
+
+#### check for colinearity in the previous model.
+
+```{R echo=FALSE, error=FALSE, warning=FALSE}
+
+col.mm <- glm(Gesture ~ NonsocialRoom3+SpaghettiTube+NonsocialRoom4 + Species+ z.Session+z.Trial
+             , data = model.data
+             
+)
+vif(col.mm)
+#no problem
+```
+``` {r mixed modeling, error=TRUE}
+
+
+## code to run the model
+pred.mm.S3 <- glmer(Gesture ~ NonsocialRoom3.c+SpaghettiTube*NonsocialRoom4 + Species.c+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+               
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad)
+
+             , data = model.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+```{r}
+save.image("exp2_glmm_S3_CI.rData")
+
+```
+
+

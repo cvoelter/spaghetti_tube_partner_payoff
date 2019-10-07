@@ -1,0 +1,515 @@
+---
+title: "Spaghetti tube - Partner Payoffs  (aka Phase 7) - Tool recipient performance"
+author: "Christoph Voelter"
+date: "August 07, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library (car)
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(ggplot2)
+library(scales)
+library(gridExtra)
+library(psych)
+library(summarytools)
+source("../../R scripts/Roger/diagnostic_fcns.r")
+source("../../R scripts/Roger/glmm_stability.r")
+source("../../R scripts/Roger/boxplotteR.r")
+source("../../R scripts/Roger/boot_glmm.r")
+source("../../R scripts/Roger/corr_exact.r")
+load(file =".RData")
+#readRDS(file ="multpos_model.rds")
+```
+
+```{r loading data, include = FALSE, warning = FALSE}
+#Preparing code for mixed modeling. 
+all.data <- read.table(file="data/Spaghetti_Tube_Phase7_data_for_r.txt", header=T, sep="\t")
+all.data$Highpass<-as.factor(all.data$Highpass)
+all.data=subset(all.data, tool_trans==1)
+all.data$tool_intube=droplevels(all.data$tool_intube)
+all.data$tool_intube=as.integer(all.data$tool_intube)-1
+str(all.data)
+describeBy(all.data)
+view(dfSummary(all.data))
+
+```
+
+
+
+
+
+##Summary
+Both the paired-samples t-test and a mixed model show a significant effect for condition. There was no significant interaction between session and condition. 
+
+
+##Plotting data
+```{r error=FALSE, echo=FALSE}
+
+plot_individual <- all.data %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(NonsocialRoom4,SpaghettiTube,dir_dyad ) %>% 
+  summarize(tool_in_Tube = mean(tool_intube))  %>% 
+  add_count(tool_in_Tube)
+
+ggplot(
+  data=plot_individual, aes(interaction(NonsocialRoom4,SpaghettiTube), tool_in_Tube, group=dir_dyad)) +   
+  geom_boxplot(aes(group=interaction(NonsocialRoom4,SpaghettiTube)), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  #ylim(0,12)+
+  labs(x="Condition",y="Tool in Tube")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  scale_x_discrete(labels=c("High","Low","High","Low"), breaks=c("High.High","Low.High", "High.Nothing", "Low.Nothing"))
+  #scale_y_continuous(breaks=seq(0,12,2))
+```
+
+
+```{r}
+spaghetti.labs <- c("Tube baited", "Tube unbaited")
+names(spaghetti.labs) <- c("High", "Nothing")
+
+ggplot(
+  data=plot_individual, aes(NonsocialRoom4, tool_in_Tube, group=dir_dyad)) +   
+  geom_boxplot(aes(group=interaction(NonsocialRoom4,SpaghettiTube)), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  #ylim(0,12)+
+  labs(x="Non-social apparatus",y="Tool in Tube")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  facet_wrap(~ SpaghettiTube,labeller=labeller(SpaghettiTube=spaghetti.labs))
+
+```
+
+
+```{r error=FALSE, echo=FALSE}
+#Tool recipient: spaghetti tube
+plot_individual2 <- all.data %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(SpaghettiTube, dir_dyad) %>% 
+  summarize(tool_in_tube = mean(tool_intube))  %>%
+  mutate(tool_in_tube = round(tool_in_tube/0.01)*0.01)%>%
+  add_count(tool_in_tube)
+
+median_S.R4<-plot_individual2  %>%
+  group_by(SpaghettiTube) %>% 
+  summarize(tool_in_tube2 = median(tool_in_tube))  
+
+p2<-ggplot(
+  data=plot_individual2, aes(SpaghettiTube, tool_in_tube, group=dir_dyad)) +   
+  geom_boxplot(aes(group=SpaghettiTube), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual2$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  ylim(0,1)+
+  labs(x="Tool recipient: social payoff",y="Tool in Tube")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
+  #ggtitle("Tool recipient: Social Payoff")
+
+#Payoff tool recipient: NS option
+plot_individual3 <- all.data %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(NonsocialRoom4, dir_dyad) %>% 
+  summarize(tool_in_tube = mean(tool_intube))  %>%
+  mutate(tool_in_tube = round(tool_in_tube/0.01)*0.01)%>%
+  add_count(tool_in_tube)
+
+median_NS.R4 <- plot_individual3  %>%
+  group_by(NonsocialRoom4) %>% 
+  summarize(tool_in_tube2 = median(tool_in_tube))  
+
+p1 <- ggplot(
+  data=plot_individual3, aes(NonsocialRoom4, tool_in_tube, group=dir_dyad)) +   
+  geom_boxplot(aes(group=NonsocialRoom4), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual3$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4)+
+  ylim(0,1)+
+  labs(x="Tool recipient: Non-social payoff",y="Tool in Tube")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+      ggtitle("Tool recipient: Non-social Payoff")
+
+
+#HighPass
+plot_individual4 <- all.data %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(Highpass, dir_dyad) %>% 
+  summarize(tool_in_tube = mean(tool_intube))  %>%
+  mutate(tool_in_tube = round(tool_in_tube/0.01)*0.01)%>%
+  add_count(tool_in_tube)
+
+median_Presence <- plot_individual4  %>%
+  group_by(Highpass) %>% 
+  summarize(tool_in_tube2 = median(tool_in_tube))  
+
+p3 <- ggplot(
+  data=plot_individual4, aes(Highpass, tool_in_tube, group=dir_dyad)) +   
+  geom_boxplot(aes(group=Highpass), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual4$n, colour = "darkgrey", alpha=0.25) +
+  geom_line(lty=2, alpha=0.4, colour="darkgrey")+
+  ylim(0,1)+
+  labs(x="High tool passing",y="Tool in Tube")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))#+
+ # ggtitle("High tool passing" )
+
+#tiff("SpaghettiTube_tool_transfer_predictors.tiff", width= 180, height= 120, units = "mm", res=150)
+grid.arrange(p1, p2,p3, nrow = 1, heights=unit(100, "mm"))
+#dev.off()
+
+#ggsave("SpaghettiTube_tooltranser.tiff", width = 18, height = 10, units = "cm")
+
+
+```
+
+###Plotting effect of gestures on tool transfer
+
+```{r error=FALSE, echo=FALSE}
+
+plot_individual5 <- model.data.chimp %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(Gesture, dir_dyad) %>% 
+  summarize(tool_transfer = mean(tool_trans))  %>% 
+  mutate(tool_transfer = round(tool_transfer/0.01)*0.01)%>%
+  add_count(tool_transfer)
+  
+  
+plot_individual5$diff_score=plot_individual5$tool_transfer[plot_individual5$Gesture=="yes"]-plot_individual5$tool_transfer[plot_individual5$Gesture=="no"]
+plot_individual5 <- plot_individual5 %>%
+  add_count(diff_score, name = "n_diff")
+
+
+median_gesture_chimp<-plot_individual5  %>%
+  group_by(Gesture) %>% 
+  summarize(tool_transfer2 = median(tool_transfer))  
+
+p4<-ggplot(
+  data=plot_individual5, aes(Gesture, tool_transfer, group=dir_dyad)) +   
+  geom_boxplot(aes(group=Gesture), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual5$n, colour = "darkgrey", alpha=0.6) +
+  geom_line(lty=2, alpha=0.8, colour="darkgrey")+
+  ylim(0,0.8)+
+  labs(x="Gesture",y="Tool transfer")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  ggtitle("Chimpanzee")
+
+#ggsave("SpaghettiTube_tooltransfer.tiff", width = 10, height = 10, units = "cm")
+
+p4
+
+
+plot_individual6 <- model.data.orang %>%
+  mutate(dir_dyad = paste(Room3, Room4, sep = '_'))%>%
+  group_by(Gesture, dir_dyad) %>% 
+  summarize(tool_transfer = mean(tool_trans))  %>% 
+  mutate(tool_transfer = round(tool_transfer/0.01)*0.01)%>%
+  add_count(tool_transfer)
+
+median_gesture_orang<-plot_individual6  %>%
+  group_by(Gesture) %>% 
+  summarize(tool_transfer2 = median(tool_transfer))  
+
+p5<-ggplot(
+  data=plot_individual6, aes(Gesture, tool_transfer, group=dir_dyad)) +   
+  geom_boxplot(aes(group=Gesture), width=0.9, outlier.colour="white")+
+  geom_point(size = plot_individual6$n, colour = "darkgrey", alpha=0.6) +
+  geom_line(lty=2, alpha=0.8, colour="darkgrey")+
+  ylim(0,0.8)+
+  labs(x="Gesture",y="Tool transfer")+
+  theme_few()+
+  theme(axis.ticks.x=element_blank(), axis.title.x = element_text(size=10), plot.title = element_text(size=12), plot.caption = element_text(size=10))+
+  ggtitle("Orangutan")
+
+#ggsave("SpaghettiTube_tooltransfer.tiff", width = 10, height = 10, units = "cm")
+
+p5
+
+#tiff("SpaghettiTube_tool_transfer_gestures.tiff", width= 120, height= 120, units = "mm", res=150)
+grid.arrange(p4, p5, nrow = 1, heights=unit(100, "mm"))
+#dev.off()
+
+
+
+
+
+
+```
+
+
+\pagebreak  
+``
+
+## GLMM
+
+###GLMM 01 with Room 4 interaction
+
+```{r eval=FALSE, echo=FALSE}
+all.data2<-droplevels(all.data)
+xx.fe.re=fe.re.tab(fe.model="tool_intube~ SpaghettiTube*NonsocialRoom4  + Highpass + Species+ Session+Trial ",
+                   re="(1|Room3)+ (1|Room4)+ (1|Dyad)", data=all.data2)
+xx.fe.re$summary
+```
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+model.recipient.data <- all.data %>% 
+  mutate(z.Trial = scale(Trial, scale = T, center = T),
+         z.Session = scale(Session, scale=T, center=T),
+         SpaghettiTube.c = scale(as.numeric(SpaghettiTube), scale=F,center=T),
+         NonsocialRoom4.c = scale(as.numeric(NonsocialRoom4), scale=F,center=T),
+         Highpass.c = scale(as.numeric(Highpass), scale=F,center=T),
+         Species.c = scale(as.numeric(Species), scale=F,center=T))
+
+## code to run the model
+mm2 <- glmer(tool_intube~ SpaghettiTube*NonsocialRoom4  + Highpass +
+             Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+               
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+             
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad) 
+             , data = model.recipient.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+
+
+
+
+####Null model	 
+```{r}	 
+mm2.null <- glmer(tool_intube~z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+               
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)+
+             
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room3)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Room4)+
+             (0+I(SpaghettiTube.c*NonsocialRoom4.c)|Dyad) 
+             , data = model.recipient.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+
+```
+####Full-null model comparison
+```{r}	 
+anova(mm2, mm2.null, test="Chisq")
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm2)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop1.mm2=drop1(mm2, test="Chisq")
+round(xdrop1.mm2,3)
+```
+
+
+
+
+
+###GLMM02 without the interaction
+
+
+``` {r mixed modeling2, error=TRUE}
+mm2.2 <- glmer(tool_intube~ SpaghettiTube+NonsocialRoom4  + Highpass +
+             Species+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+               
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+            
+             , data = model.recipient.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+####Null model	 
+```{r}	 
+mm2.2.null <- glmer(tool_intube~ 1+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+               
+            # (0+Highpass.c|Room3)+ 
+            # (0+Highpass.c|Room4)+
+            # (0+Highpass.c|Dyad)+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+            
+             , data = model.recipient.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+
+```
+
+####Full-null model comparison
+```{r}	 
+anova(mm2.2, mm2.2.null, test="Chisq")
+```
+
+
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm2.2)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop.mm2.2=drop1(mm2.2, test="Chisq")
+round(xdrop.mm2.2,3)
+```
+
+mean and SE of the covariates: 
+```{r}
+mean(model.recipient.data$Session)
+sd(model.recipient.data$Session)
+
+mean(model.recipient.data$Trial)
+sd(model.recipient.data$Trial)
+
+``` 
+
+
+#### check for colinearity in the previous model.
+
+```{R echo=FALSE, error=FALSE, warning=FALSE}
+
+col.mm1 <- glm(tool_intube~ SpaghettiTube+NonsocialRoom4  + Highpass +
+             Species+ z.Session+z.Trial
+             , data = model.recipient.data
+             
+)
+vif(col.mm1)
+#no problem
+```
+-> no collinearity
+
+####Model output
+`````` {r plot mixed modeling, error=TRUE, warning=FALSE}
+
+plot_model(mm2, type='est') 
+plot_model(mm2, type='re') 
+```
+
+
+##Model for plotting
+``` {r mixed modeling2, error=TRUE}
+pred.mm2.2.Room4 <- glmer(tool_intube~ SpaghettiTube+NonsocialRoom4  + Highpass.c +
+             Species.c+ z.Session+z.Trial+
+             (1|Room3)+(1|Room4)+ (1|Dyad)+
+             
+             (0+z.Session|Room3)+ 
+             (0+z.Session|Room4)+
+             (0+z.Session|Dyad)+
+  
+             (0+z.Trial|Room3)+ 
+             (0+z.Trial|Room4)+
+             (0+z.Trial|Dyad)+
+
+
+             (0+SpaghettiTube.c|Room3)+ 
+             (0+SpaghettiTube.c|Room4)+
+             (0+SpaghettiTube.c|Dyad)+
+             
+             (0+NonsocialRoom4.c|Room3)+ 
+             (0+NonsocialRoom4.c|Room4)+
+             (0+NonsocialRoom4.c|Dyad)
+            
+             , data = model.recipient.data
+             , family = binomial
+             , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+```
+
+
+```{r include=FALSE}
+## save model output
+save.image("exp2_glmm2_CI.RData")
+```
